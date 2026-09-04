@@ -1,0 +1,37 @@
+/* Morandi 4-Color Architectural System */
+.m-blue { color: #4d6575; }
+.m-green { color: #576d57; }
+.m-rose { color: #7d5959; }
+.m-sand { color: #75634f; }
+.m-slate { color: #333d45; }
+
+.card-blue {
+  background-color: #eff3f6;
+  border: 1px solid #afc0cb;
+  color: #2e3c45;
+}
+.card-green {
+  background-color: #f0f4f0;
+  border: 1px solid #b2c2b2;
+  color: #303d30;
+}
+.card-rose {
+  background-color: #f6f1f1;
+  border: 1px solid #c8b4b4;
+  color: #473232;
+}
+.card-sand {
+  background-color: #f5f2ed;
+  border: 1px solid #c2b5a5;
+  color: #42372d;
+}
+
+.badge-blue { background-color: #dce5eb; color: #354752; }
+.badge-green { background-color: #e0e8e0; color: #354635; }
+.badge-rose { background-color: #eddada; color: #523737; }
+.badge-sand { background-color: #ebe4d8; color: #4a3e31; }
+
+.morandi-border-blue { border-left: 4px solid #6b8494; }
+.morandi-border-green { border-left: 4px solid #738a73; }
+.morandi-border-rose { border-left: 4px solid #997373; }
+.morandi-border-sand { border-left: 4px solid #94826d; }
