@@ -1,22 +1,30 @@
-/* Japanese Minimalist Morandi Architecture - Enhanced Color Distinction */
+/* Japanese Minimalist Morandi Architecture - Strict Scope Isolation under .slidev-layout */
 
-*, body, .slidev-layout, h1, h2, h3, h4, h5, h6, p, span, div, li, td, th, button, input {
+/* Scope font family strictly inside slides, NOT leaking to Monaco Editor UI */
+.slidev-layout,
+.slidev-layout *,
+.slidev-layout h1, .slidev-layout h2, .slidev-layout h3,
+.slidev-layout p, .slidev-layout span, .slidev-layout div,
+.slidev-layout li, .slidev-layout td, .slidev-layout th {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif !important;
 }
 
-body, .slidev-layout {
+.slidev-layout {
   background-color: #f7f6f2 !important;
   color: #272c30 !important;
 }
 
-b, strong, .font-bold, .font-semibold {
+.slidev-layout b,
+.slidev-layout strong,
+.slidev-layout .font-bold,
+.slidev-layout .font-semibold {
   font-weight: 700 !important;
 }
 
-/* STAGE 1 TYPOGRAPHY SCALE */
+/* STAGE 1 TYPOGRAPHY SCALE (Strictly scoped inside .slidev-layout) */
 
 /* Level 1: Slide Main Title (24px / 1.5rem) */
-h1, .text-level-1 {
+.slidev-layout h1, .slidev-layout .text-level-1 {
   font-size: 1.5rem !important; /* 24px */
   line-height: 2rem !important;
   font-weight: 700 !important;
@@ -26,14 +34,14 @@ h1, .text-level-1 {
 }
 
 /* Level 2: Subtitle & Card Titles (16px / 1rem) */
-h2, h3, .slide-subtitle, .card-title, .text-level-2 {
+.slidev-layout h2, .slidev-layout h3, .slidev-layout .slide-subtitle, .slidev-layout .card-title, .slidev-layout .text-level-2 {
   font-size: 1rem !important; /* 16px */
   line-height: 1.5rem !important;
   font-weight: 600 !important;
 }
 
 /* Level 3: Body Text & List Items (14px / 0.875rem) */
-p, li, td, th, .card-body, .text-level-3 {
+.slidev-layout p, .slidev-layout li, .slidev-layout td, .slidev-layout th, .slidev-layout .card-body, .slidev-layout .text-level-3 {
   font-size: 0.875rem !important; /* 14px */
   line-height: 1.4rem !important;
   font-weight: 400 !important;
@@ -41,31 +49,78 @@ p, li, td, th, .card-body, .text-level-3 {
 }
 
 /* Level 4: Badges, Small Notes, Captions & Mono (12px / 0.75rem) */
-small, code, .badge, .caption, .footnote, .text-level-4 {
+.slidev-layout small, .slidev-layout code, .slidev-layout .badge, .slidev-layout .caption, .slidev-layout .footnote, .slidev-layout .text-level-4 {
   font-size: 0.75rem !important; /* 12px */
   line-height: 1rem !important;
 }
 
-/* Morandi Color Palette - Richer Distinct Tones */
-.text-m-sage { color: #283a2c !important; }
-.text-m-slate { color: #1f3143 !important; }
-.text-m-sand { color: #372b1d !important; }
-.text-m-rose { color: #3b1d1d !important; }
-.text-m-ink { color: #23272b !important; }
-.text-m-muted { color: #5a626a !important; }
+/* Morandi Color Palette (Scoped) */
+.slidev-layout .text-m-sage { color: #283a2c !important; }
+.slidev-layout .text-m-slate { color: #1f3143 !important; }
+.slidev-layout .text-m-sand { color: #372b1d !important; }
+.slidev-layout .text-m-rose { color: #3b1d1d !important; }
+.slidev-layout .text-m-ink { color: #23272b !important; }
+.slidev-layout .text-m-muted { color: #5a626a !important; }
 
-/* Custom Japanese Minimal Card Components with Richer Tint & Distinct Left Borders */
-.card-sage { background-color: #e3ece5; border: 1px solid #b8ccbb; color: #283a2c; border-left: 4px solid #526b57 !important; }
-.card-slate { background-color: #e2e9f0; border: 1px solid #b5c7d8; color: #1f3143; border-left: 4px solid #425a70 !important; }
-.card-sand { background-color: #f2ebdf; border: 1px solid #d4c4af; color: #372b1d; border-left: 4px solid #7e6b52 !important; }
-.card-rose { background-color: #f4e6e6; border: 1px solid #dbbcbc; color: #3b1d1d; border-left: 4px solid #845555 !important; }
+/* Custom Japanese Minimal Card Components (Scoped) */
+.slidev-layout .card-sage { background-color: #e3ece5; border: 1px solid #b8ccbb; color: #283a2c; border-left: 4px solid #526b57 !important; }
+.slidev-layout .card-slate { background-color: #e2e9f0; border: 1px solid #b5c7d8; color: #1f3143; border-left: 4px solid #425a70 !important; }
+.slidev-layout .card-sand { background-color: #f2ebdf; border: 1px solid #d4c4af; color: #372b1d; border-left: 4px solid #7e6b52 !important; }
+.slidev-layout .card-rose { background-color: #f4e6e6; border: 1px solid #dbbcbc; color: #3b1d1d; border-left: 4px solid #845555 !important; }
 
-.badge-sage { background-color: #cddccf; color: #283a2c; font-weight: 600; }
-.badge-slate { background-color: #c8d6e5; color: #1f3143; font-weight: 600; }
-.badge-sand { background-color: #e5d7c3; color: #372b1d; font-weight: 600; }
-.badge-rose { background-color: #e5c9c9; color: #3b1d1d; font-weight: 600; }
+.slidev-layout .badge-sage { background-color: #cddccf; color: #283a2c; font-weight: 600; }
+.slidev-layout .badge-slate { background-color: #c8d6e5; color: #1f3143; font-weight: 600; }
+.slidev-layout .badge-sand { background-color: #e5d7c3; color: #372b1d; font-weight: 600; }
+.slidev-layout .badge-rose { background-color: #e5c9c9; color: #3b1d1d; font-weight: 600; }
 
-.m-border-sage { border-left: 4px solid #526b57 !important; }
-.m-border-slate { border-left: 4px solid #425a70 !important; }
-.m-border-sand { border-left: 4px solid #7e6b52 !important; }
-.m-border-rose { border-left: 4px solid #845555 !important; }
+.slidev-layout .m-border-sage { border-left: 4px solid #526b57 !important; }
+.slidev-layout .m-border-slate { border-left: 4px solid #425a70 !important; }
+.slidev-layout .m-border-sand { border-left: 4px solid #7e6b52 !important; }
+.slidev-layout .m-border-rose { border-left: 4px solid #845555 !important; }
+
+/* Morandi Table Styling & Hover Effects (Scoped) */
+.slidev-layout table {
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  border: 1px solid #d4c4af !important;
+}
+
+.slidev-layout th {
+  background-color: #f2ebdf !important;
+  color: #372b1d !important;
+  font-weight: 700 !important;
+  border-bottom: 2px solid #d4c4af !important;
+}
+
+.slidev-layout tbody tr {
+  transition: background-color 0.15s ease-in-out !important;
+}
+
+.slidev-layout tbody tr:nth-child(even) {
+  background-color: rgba(242, 235, 223, 0.35) !important;
+}
+
+.slidev-layout tbody tr:hover {
+  background-color: #e2e9f0 !important;
+}
+
+.dark .slidev-layout table {
+  border-color: #3d342a !important;
+}
+
+.dark .slidev-layout th {
+  background-color: #26231e !important;
+  color: #e4d7c8 !important;
+  border-bottom-color: #3d342a !important;
+}
+
+.dark .slidev-layout tbody tr:nth-child(even) {
+  background-color: rgba(38, 35, 30, 0.35) !important;
+}
+
+.dark .slidev-layout tbody tr:hover {
+  background-color: #1e252c !important;
+}
+
