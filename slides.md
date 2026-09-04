@@ -269,22 +269,23 @@ layout: default
 class: overflow-y-auto
 ---
 
-# β-Lactamase Inhibitors
+# Outsmarting Bacterial Defense: β-Lactamase Inhibitors
+<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">Evolution and etymology of "-bactams" (Beisel et al., Table 2)</div>
 
-<div class="grid grid-cols-2 gap-3 mb-3 mt-3 text-base">
+<div class="grid grid-cols-2 gap-3 mb-3 text-base">
   <div class="p-2.5 rounded-xl bg-[#f2ebdf] dark:bg-[#26231e] m-border-sand">
-    <div class="font-bold text-[#372b1d] dark:text-[#e4d7c8] text-base mb-1">🛡️ Mechanism & Structural Evolution</div>
+    <div class="font-bold text-[#372b1d] dark:text-[#e4d7c8] text-base mb-1">🛡️ Discovery & Structural Evolution</div>
     <ul class="space-y-1 text-sm text-[#2d3339] dark:text-[#cbd5e1] pl-4 list-disc">
-      <li><b>Suicide Inhibitors:</b> Irreversibly bind β-lactamases to protect co-administered β-lactams.</li>
-      <li><b>Non-β-Lactam Era:</b> Transitioned from β-lactam sulfones to DBOs & boronic acids to bypass MRSA/KPC carbapenemases.</li>
+      <li><b>Natural Prototype:</b> Clavulanate isolated from <i>S. clavuligerus</i> culture filtrate.</li>
+      <li><b>Structural Shift:</b> Evolved from β-lactam sulfones to cyclic boronic acids & non-β-lactam DBOs.</li>
     </ul>
   </div>
 
   <div class="p-2.5 rounded-xl bg-[#e2e9f0] dark:bg-[#1e252c] m-border-slate">
-    <div class="font-bold text-[#1f3143] dark:text-[#d3e0ec] text-base mb-1">🏷️ Nomenclature Rules (USAN & WHO INN)</div>
+    <div class="font-bold text-[#1f3143] dark:text-[#d3e0ec] text-base mb-1">🏷️ Nomenclature & Stem Rules</div>
     <ul class="space-y-1 text-sm text-[#2d3339] dark:text-[#cbd5e1] pl-4 list-disc">
-      <li><b>Universal Suffix <code class="px-1 py-0.5 rounded bg-[#c8d6e5] text-[#1f3143] font-mono">-bactam</code>:</b> Contraction created specifically for β-lactamase inhibitors.</li>
-      <li><b>Prefix Strategy:</b> Extracted from chemical side chains (<i>Tazo-</i>), preclinical codes (<i>Avi-</i>), or brand names (<i>Va-</i>).</li>
+      <li><b>Universal Suffix <code class="px-1 py-0.5 rounded bg-[#c8d6e5] text-[#1f3143] font-mono">-bactam</code>:</b> USAN/WHO contraction for β-lactamase inhibitors.</li>
+      <li><b>Prefix Origins:</b> Derived from chemical groups (<i>Tazo-</i>), early codes (<i>Avi-</i>), or brand names (<i>Va-</i>).</li>
     </ul>
   </div>
 </div>
@@ -294,47 +295,45 @@ class: overflow-y-auto
     <thead>
       <tr>
         <th class="py-2.5 px-3">Inhibitor Name</th>
-        <th class="py-2.5 px-3">Sub-Class / Core Structure</th>
+        <th class="py-2.5 px-3">Category / Stem</th>
         <th class="py-2.5 px-3">Etymological & Chemical Origin (Beisel et al., Table 2)</th>
-        <th class="py-2.5 px-3">Clinical Combinations & Spectrum Focus</th>
       </tr>
     </thead>
     <tbody class="text-[#2d3339] dark:text-[#cbd5e1]">
       <tr>
-        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Clavulanic Acid</td>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Clavulanic acid</td>
         <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sand">Natural Product</span></td>
-        <td class="py-2 px-3">Isolated from <i>Streptomyces clavuligerus</i> (1970s). Prototype suicide inhibitor.</td>
-        <td class="py-2 px-3">Restores amoxicillin (Augmentin) & ticarcillin (Timentin) against MSSA & anaerobes.</td>
+        <td class="py-2 px-3">Isolated from <i>Streptomyces clavuligerus</i> culture filtrate. Clavulanate (salt form) has little standalone antimicrobial activity but significantly reduces MIC when combined with β-lactams.</td>
       </tr>
       <tr>
         <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Sulbactam</td>
-        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-slate">Penicillanic Acid Sulfone</span></td>
-        <td class="py-2 px-3"><code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">Sulb-</code> = <b>sulfone</b> derivative of penicillanic acid + <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">-bactam</code>.</td>
-        <td class="py-2 px-3">Combined with ampicillin (Unasyn) & durlobactam; intrinsic activity vs <i>Acinetobacter</i>.</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-slate">Sulfone</span></td>
+        <td class="py-2 px-3">Halogenated derivative of penicillanic acid (penicillanic acid sulfone). <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">Sulb-</code> derived from <b>sulfone</b>; <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">-bactam</code> contraction for β-lactamase inhibitor.</td>
       </tr>
       <tr>
         <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Tazobactam</td>
-        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-slate">Synthetic Sulfone</span></td>
-        <td class="py-2 px-3"><code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">Tazo-</code> = <b>triazolylmethyl</b> group added to sulfone backbone + <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">-bactam</code>.</td>
-        <td class="py-2 px-3">Combined with piperacillin (Zosyn) & ceftolozane (Zerbaxa); targets ESBLs & <i>P. aeruginosa</i>.</td>
-      </tr>
-      <tr>
-        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Avibactam</td>
-        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sage">Non-β-Lactam DBO</span></td>
-        <td class="py-2 px-3"><code class="px-1 py-0.5 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#37453a] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">Avi-</code> derived directly from early preclinical candidate code: <b>AVE1330A</b>.</td>
-        <td class="py-2 px-3">Combined with ceftazidime (Avycaz); inhibits KPC, AmpC, and Class A/C serine β-lactamases.</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-slate">Sulfone Analogue</span></td>
+        <td class="py-2 px-3">Analogue of sulbactam. <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">Tazo-</code> prefix is derived from the <b>triazolylmethyl</b> group.</td>
       </tr>
       <tr>
         <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Vaborbactam</td>
         <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-rose">Boronic Acid</span></td>
-        <td class="py-2 px-3"><code class="px-1 py-0.5 rounded bg-[#f4e6e6] dark:bg-[#272020] text-[#4a3434] dark:text-[#ebd6d6] font-mono border border-[#dbbcbc] dark:border-[#3f2e2e]">Va-</code> extracted from commercial brand name <i>Vabomere</i> for smooth global pronunciation.</td>
-        <td class="py-2 px-3">Combined with meropenem (Vabomere); cyclic boronic acid inhibitor for KPC carbapenemases.</td>
+        <td class="py-2 px-3">Boronic acid-containing compound selective toward β-lactamases over mammalian serine proteases. <code class="px-1 py-0.5 rounded bg-[#f4e6e6] dark:bg-[#272020] text-[#4a3434] dark:text-[#ebd6d6] font-mono border border-[#dbbcbc] dark:border-[#3f2e2e]">Va-</code> prefix added from brand name (<i>Vabomere</i>) for pronounceability.</td>
       </tr>
       <tr>
         <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Relebactam</td>
         <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sage">Non-β-Lactam DBO</span></td>
-        <td class="py-2 px-3"><code class="px-1 py-0.5 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#37453a] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">Rele-</code> = developer code prefix + universal <code class="px-1 py-0.5 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#37453a] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">-bactam</code> stem.</td>
-        <td class="py-2 px-3">Combined with imipenem/cilastatin (Recarbrio); covers AmpC, KPC & resistant <i>P. aeruginosa</i>.</td>
+        <td class="py-2 px-3">Etymology not publicly documented; proposed by some sources as <b>"reliever"</b> creating the <code class="px-1 py-0.5 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#37453a] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">rel-</code> prefix.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Avibactam</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sage">Non-β-Lactam DBO</span></td>
+        <td class="py-2 px-3">Original developer named the compound <code class="px-1 py-0.5 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#37453a] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">AVE1330A</code> during preclinical development. <code class="px-1 py-0.5 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#37453a] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">Avi-</code> likely derives from this early code.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Durlobactam</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sage">Non-β-Lactam DBO</span></td>
+        <td class="py-2 px-3">Etymology not publicly documented; likely reflects recent naming conventions favoring international pronounceability.</td>
       </tr>
     </tbody>
   </table>
