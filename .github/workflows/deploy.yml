@@ -36,7 +36,6 @@ jobs:
 
       - name: Build Slidev presentation
         run: |
-          cd slidev
           npx slidev build slides.md --base /20260907-ICU-Meeting/
 
       - name: Upload Pages artifact
