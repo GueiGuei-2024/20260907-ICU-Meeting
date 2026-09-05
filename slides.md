@@ -741,37 +741,497 @@ class: overflow-y-auto
 
 ---
 layout: default
+class: overflow-y-auto
 ---
 
-# Fluoroquinolones: An Impurity During Malaria Research
-<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-4 font-normal tracking-wide">Serendipity that led to topoisomerase-targeting blockbusters</div>
+# Quinolones: Chloroquine By-product & Table 7 Decoder
+<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">From Nalidixic acid to C6-fluorine and C7-piperazine evolution (Beisel et al., Table 7)</div>
 
-<div class="grid grid-cols-2 gap-6">
-  <div>
-    <h3 class="text-base font-bold text-[#453b30] dark:text-[#e4d7c8] font-semibold mb-2">The 1962 Accidental Discovery</h3>
-    <ul class="text-base space-y-2 text-gray-600 dark:text-gray-300">
-      <li>George Lesher at Sterling Drug was synthesizing the antimalarial agent <b>chloroquine</b>.</li>
-      <li>During distillation, an unexpected chemical byproduct was isolated: <b>Nalidixic acid</b>.</li>
-      <li>Weak antibacterial activity, rapid resistance, and CNS/phototoxicity limited early utility.</li>
+<div class="grid grid-cols-2 gap-3 mb-3 text-base">
+  <div class="p-2.5 rounded-xl bg-[#f2ebdf] dark:bg-[#26231e] m-border-sand">
+    <div class="font-bold text-[#372b1d] dark:text-[#e4d7c8] text-sm mb-1">🎯 1960s Serendipity & C6-Fluorine Milestone</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>Accidental By-product:</b> <i>Nalidixic acid</i> isolated by George Lesher (Sterling Drugs) during chloroquine synthesis.</li>
+      <li><b>C6-Fluorine Revolution:</b> <i>Flumequine</i> added C6-fluorine (<code class="px-1 py-0.2 rounded bg-[#e5d7c3] text-[#372b1d] font-mono">Fluoro-</code>), launching 2nd-gen agents. <code class="px-1 py-0.2 rounded bg-[#e5d7c3] text-[#372b1d] font-mono">-oxacin</code> stem reflects exocyclic ketone/4-oxo oxygen.</li>
     </ul>
-    <div class="mt-3 p-2.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-base">
-      <b>The Fluorine Revolution:</b> Adding a <b>fluorine</b> at C-6 increased DNA gyrase/topoisomerase inhibition >100-fold, creating the *fluoroquinolones* (stem <code>-floxacin</code>).
-    </div>
   </div>
 
-  <div>
-    <h3 class="text-base font-bold text-[#31404e] dark:text-[#d3e0ec] font-semibold mb-2">Naming Structural Modifications</h3>
-    <div class="space-y-2 text-base">
-      <div class="p-2.5 rounded bg-gray-50 dark:bg-gray-800">
-        <b>Ciprofloxacin:</b> <b>cipro-</b> = addition of a <b>cyclopropyl</b> group at N-1, maximizing broad-spectrum Gram-negative efficacy.
-      </div>
-      <div class="p-2.5 rounded bg-gray-50 dark:bg-gray-800">
-        <b>Levofloxacin:</b> <b>levo-</b> = pure $L$-enantiomer (active isomer) isolated from the racemic mixture of ofloxacin, cutting the required dose in half and reducing toxicity.
-      </div>
-      <div class="p-2.5 rounded bg-gray-50 dark:bg-gray-800">
-        <b>Moxifloxacin:</b> <b>moxi-</b> = addition of an 8-<b>methoxy</b> substituent, expanding anaerobic and Gram-positive coverage.
-      </div>
-    </div>
+  <div class="p-2.5 rounded-xl bg-[#e2e9f0] dark:bg-[#1e252c] m-border-slate">
+    <div class="font-bold text-[#1f3143] dark:text-[#d3e0ec] text-sm mb-1">🧬 C7-Piperazine Ring & Spectrum Expansion</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>C7-Piperazine Ring:</b> Added in 2nd-gen agents (Enoxacin, Ciprofloxacin) to cover <i>Pseudomonas</i> species.</li>
+      <li><b>3rd/4th Gen Advancement:</b> Ofloxacin expanded to Gram-positives (<i>S. aureus</i>); later agents optimized PK, anaerobes & Gram-positive potency.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="overflow-x-auto text-sm">
+  <table class="w-full text-left">
+    <thead>
+      <tr>
+        <th class="py-2.5 px-3">Agent Name</th>
+        <th class="py-2.5 px-3">Category / Generation</th>
+        <th class="py-2.5 px-3">Etymological & Structural Origin (Beisel et al., Table 7)</th>
+      </tr>
+    </thead>
+    <tbody class="text-[#2d3339] dark:text-[#cbd5e1]">
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Ciprofloxacin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-slate">2nd Gen (Cyclopropyl)</span></td>
+        <td class="py-2 px-3">Semisynthetic derivative of norfloxacin with an added cyclopropyl group. <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">cipro-</code> refers to the <b>cyclopropyl group</b> + <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">-floxacin</code> stem.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Ofloxacin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sand">2nd Gen (Racemic Oxazine)</span></td>
+        <td class="py-2 px-3">Synthetic racemic mixture. <code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">o-</code> likely derived from the <b>oxazine ring</b> in drug structure + <code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">-floxacin</code> stem.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Levofloxacin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sage">3rd Gen (Pure L-Isomer)</span></td>
+        <td class="py-2 px-3">Active <b>L-isomer</b> of ofloxacin, increasing potency, reducing required dose, and lowering toxicity vs racemic ofloxacin. <code class="px-1 py-0.5 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#37453a] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">Levo-</code> refers to <b>L-isomer form</b> + <code class="px-1 py-0.5 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#37453a] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">-floxacin</code> stem.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Moxifloxacin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-rose">4th Gen (8-Methoxy)</span></td>
+        <td class="py-2 px-3">Semisynthetic derivative with an added <b>8-methoxy group</b> (<code class="px-1 py-0.5 rounded bg-[#f4e6e6] dark:bg-[#272020] text-[#4a3434] dark:text-[#ebd6d6] font-mono border border-[#dbbcbc] dark:border-[#3f2e2e]">moxi-</code>) providing enhanced Gram-positive and anaerobic coverage.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Delafloxacin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-slate">Novel Anionic Agent</span></td>
+        <td class="py-2 px-3">Semisynthetic with unique anionic characteristics for enhanced activity in acidic environments. <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">Dela-</code> prefix selected for international pronounceability.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+---
+layout: default
+class: overflow-y-auto
+---
+
+# Tetracyclines & Glycylcyclines: Architecture & Table 8 Decoder
+<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">4-Ring architecture, soil actinomycetes, and glycylamido derivatives (Beisel et al., Table 8)</div>
+
+<div class="grid grid-cols-2 gap-3 mb-3 text-base">
+  <div class="p-2.5 rounded-xl bg-[#f2ebdf] dark:bg-[#26231e] m-border-sand">
+    <div class="font-bold text-[#372b1d] dark:text-[#e4d7c8] text-sm mb-1">📜 4-Ring Origins & Soil Actinomycetes</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>Structure:</b> Named for 4 (<code class="px-1 py-0.2 rounded bg-[#e5d7c3] text-[#372b1d] font-mono">tetra-</code>) fused rings (<code class="px-1 py-0.2 rounded bg-[#e5d7c3] text-[#372b1d] font-mono">-cycl-</code>).</li>
+      <li><b>Chlortetracycline (Aureomycin, 1948):</b> Benjamin Duggar from <i>S. aureofaciens</i> (Latin <i>aureus</i> = <b>golden mold</b>).</li>
+      <li><b>Oxytetracycline (Terramycin, 1950):</b> Isolated from <i>S. rimosus</i> in Terre Haute, IN (Latin <i>terra</i> = <b>earth/soil</b>).</li>
+    </ul>
+  </div>
+
+  <div class="p-2.5 rounded-xl bg-[#e3ece5] dark:bg-[#1e2621] m-border-sage">
+    <div class="font-bold text-[#283a2c] dark:text-[#cde0d2] text-sm mb-1">🧬 PK Refinement & Glycylcycline Innovation</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>2nd Gen (Doxy / Mino):</b> Enhanced oral bioavailability & extended half-lives via chemical modifications.</li>
+      <li><b>Glycylcyclines (Tigecycline, etc.):</b> Added C-9 <b>glycylamido moiety</b> to defeat efflux pumps & ribosomal protection in MDR bugs.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="overflow-x-auto text-sm">
+  <table class="w-full text-left">
+    <thead>
+      <tr>
+        <th class="py-2.5 px-3">Agent Name</th>
+        <th class="py-2.5 px-3">Category / Stem</th>
+        <th class="py-2.5 px-3">Etymological & Structural Origin (Beisel et al., Table 8)</th>
+      </tr>
+    </thead>
+    <tbody class="text-[#2d3339] dark:text-[#cbd5e1]">
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Tetracycline</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sand">Class Prototype</span></td>
+        <td class="py-2 px-3">Derived from catalytic hydrogenation of chlortetracycline; named based on chemical structure and loss of C-7 chlorine.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Doxycycline</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-slate">2nd Gen (C6-Deoxy)</span></td>
+        <td class="py-2 px-3">Semisynthetic from oxytetracycline. <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">doxy-</code> is a contraction of <b>"deoxy-"</b>, reflecting absence of hydroxyl group at C-6 position.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Minocycline</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-slate">2nd Gen (C7-Dimethylamino)</span></td>
+        <td class="py-2 px-3">Refers to its additional <b>dimethylamino group</b> at C-7 position, distinguishing it from prior tetracyclines.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Tigecycline</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-rose">Glycylcycline (C9-Glycylamido)</span></td>
+        <td class="py-2 px-3">Semisynthetic derivative of minocycline. <code class="px-1 py-0.5 rounded bg-[#f4e6e6] dark:bg-[#272020] text-[#4a3434] dark:text-[#ebd6d6] font-mono border border-[#dbbcbc] dark:border-[#3f2e2e]">tige-</code> suggested as partial acronym from <b>bu(ty)l + g(lycyl) + a(mino)</b>.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Sarecycline</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sage">Narrow-Spectrum Derivative</span></td>
+        <td class="py-2 px-3">Semisynthetic C7-methoxy(methyl)amino derivative; prefix selected for pronounceability & brand alignment.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Omadacycline</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-rose">Aminomethylcycline</span></td>
+        <td class="py-2 px-3"><code class="px-1 py-0.5 rounded bg-[#f4e6e6] dark:bg-[#272020] text-[#4a3434] dark:text-[#ebd6d6] font-mono border border-[#dbbcbc] dark:border-[#3f2e2e]">oma-</code> likely refers to the <b>aminomethyl group</b> at C-9 position of tetracycline core (alteration for pronunciation/marketing).</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Eravacycline</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-rose">Fluorocycline</span></td>
+        <td class="py-2 px-3">Synthetic halogenated compound (fluorocycline) structurally related to tigecycline; prefix selected for pronounceability & brand name.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+---
+layout: default
+class: overflow-y-auto
+---
+
+# Sulfonamides & Antifolate Agents: Table 9 Decoder
+<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">From Prontosil red azo dye to nucleic acid antimetabolites and folate synergy (Beisel et al., Table 9)</div>
+
+<div class="grid grid-cols-2 gap-3 mb-3 text-base">
+  <div class="p-2.5 rounded-xl bg-[#f2ebdf] dark:bg-[#26231e] m-border-sand">
+    <div class="font-bold text-[#372b1d] dark:text-[#e4d7c8] text-sm mb-1">🎨 Domagk's Prontosil & WWII Sulfa Miracle</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>Gerhard Domagk (1932):</b> Discovered <i>Prontosil</i> (red azo dye); cleaved <i>in vivo</i> into active <b>sulfanilamide</b> (<code class="px-1 py-0.2 rounded bg-[#e5d7c3] text-[#372b1d] font-mono">-SO₂NH₂</code>).</li>
+      <li><b>WWII Field Medicine:</b> <i>Sulfathiazole</i> used extensively for Allied wound infections, saving countless soldiers.</li>
+    </ul>
+  </div>
+
+  <div class="p-2.5 rounded-xl bg-[#e3ece5] dark:bg-[#1e2621] m-border-sage">
+    <div class="font-bold text-[#283a2c] dark:text-[#cde0d2] text-sm mb-1">🧬 Hitchings' Antifolate Synergy & Nobel Prize</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>George Hitchings (1988 Nobel Prize):</b> Nucleic acid antimetabolite research yielding Trimethoprim & Pyrimethamine.</li>
+      <li><b>Trimethoprim Etymology:</b> <code class="px-1 py-0.2 rounded bg-[#cddccf] text-[#283a2c] font-mono">tri-</code> (3 methoxy) + <code class="px-1 py-0.2 rounded bg-[#cddccf] text-[#283a2c] font-mono">meth-</code> + <code class="px-1 py-0.2 rounded bg-[#cddccf] text-[#283a2c] font-mono">-o-</code> (oxy) + <code class="px-1 py-0.2 rounded bg-[#cddccf] text-[#283a2c] font-mono">-prim</code> (pyrimidine). Formulated as <b>TMP-SMX (1968)</b>.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="overflow-x-auto text-sm">
+  <table class="w-full text-left">
+    <thead>
+      <tr>
+        <th class="py-2.5 px-3">Agent Name</th>
+        <th class="py-2.5 px-3">Category / Stem</th>
+        <th class="py-2.5 px-3">Etymological & Structural Origin (Beisel et al., Table 9)</th>
+      </tr>
+    </thead>
+    <tbody class="text-[#2d3339] dark:text-[#cbd5e1]">
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Sulfanilamide</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sand">Azo Dye Metabolite</span></td>
+        <td class="py-2 px-3">Active metabolite of Prontosil. Combination of <i>sulfanil(ic acid)</i> + <i>-amide</i>.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Sulfadiazine</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-slate">Pyrimidine Derivative</span></td>
+        <td class="py-2 px-3">Semisynthetic from sulfanilamide; <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">-diazine</code> refers to the <b>pyrimidine ring</b> attached to sulfa group.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Sulfamethoxazole</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-slate">Isoxazole Derivative</span></td>
+        <td class="py-2 px-3">Optimized for half-life. Conjugation of <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">sulfa-</code> + <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">-methoxazole</code> (from <b>methoxy-isoxazole</b> ring).</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Sulfacetamide</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sand">N-Acetyl Derivative</span></td>
+        <td class="py-2 px-3">Semisynthetic derivative of sulfanilamide: <code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">sulf(a)-</code> + <code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">acetamide</code> (<i>N</i>-acetyl derivative of sulfanilamide).</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Trimethoprim</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sage">DHFR Inhibitor</span></td>
+        <td class="py-2 px-3">Rationally designed antimetabolite: <code class="px-1 py-0.5 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#37453a] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">tri-</code> (3-methoxy groups on benzene ring) + <code class="px-1 py-0.5 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#37453a] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">-meth-</code> (methoxy) + <code class="px-1 py-0.5 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#37453a] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">-o-</code> (oxy link) + <code class="px-1 py-0.5 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#37453a] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">-prim</code> (from <b>pyrimidine</b>).</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Pyrimethamine</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sage">Antifolate Antimalarial</span></td>
+        <td class="py-2 px-3">Rationally designed antifolate evaluated for malaria: derived from chemical structure <b>pyrimidine + ethyl + amine</b>.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Dapsone</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-rose">Sulfone Dye Derivative</span></td>
+        <td class="py-2 px-3">Originally synthesized as chemical dye; name derived from <b>d</b>i<b>a</b>mino-<b>p</b>henyl-<b>s</b>ulf<b>one</b> (4,4′-diaminodiphenylsulfone).</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+---
+layout: default
+class: overflow-y-auto
+---
+
+# Glycopeptides & Lipopeptides: Table 10 Decoder
+<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">From Borneo jungles to Mt. Ararat and lipoglycopeptide evolution (Beisel et al., Table 10)</div>
+
+<div class="grid grid-cols-2 gap-3 mb-3 text-base">
+  <div class="p-2.5 rounded-xl bg-[#e2e9f0] dark:bg-[#1e252c] m-border-slate">
+    <div class="font-bold text-[#1f3143] dark:text-[#d3e0ec] text-sm mb-1">🌴 Vancomycin & Lipoglycopeptide Evolution</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>Borneo Jungle (1953):</b> Edmund Kornfeld (Eli Lilly) isolated <i>Vancomycin</i> from <i>A. orientalis</i> soil sample; named from <b>"Vanquish"</b> (defeating MRSA).</li>
+      <li><b>2nd Gen Lipoglycopeptides:</b> <i>Telavancin</i> (Theravance + -vancin), <i>Dalbavancin</i>, <i>Oritavancin</i> with extended PK & lipophilic anchors.</li>
+    </ul>
+  </div>
+
+  <div class="p-2.5 rounded-xl bg-[#f4e6e6] dark:bg-[#272020] m-border-rose">
+    <div class="font-bold text-[#3b1d1d] dark:text-[#ebd6d6] text-sm mb-1">🏔️ Daptomycin & Membrane Depolarization</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>Mount Ararat, Turkey (1980s):</b> Isolated from <i>Streptomyces roseosporus</i> soil actinomycete.</li>
+      <li><b>Etymology & MOA:</b> <code class="px-1 py-0.2 rounded bg-[#e5c9c9] text-[#3b1d1d] font-mono">dap-</code> = <b>decanoyl</b> (fatty acid tail) + <b>amino peptide</b> core; membrane depolarization MOA distinct from cell wall inhibition.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="overflow-x-auto text-sm">
+  <table class="w-full text-left">
+    <thead>
+      <tr>
+        <th class="py-2.5 px-3">Agent Name</th>
+        <th class="py-2.5 px-3">Category / Class</th>
+        <th class="py-2.5 px-3">Etymological & Structural Origin (Beisel et al., Table 10)</th>
+      </tr>
+    </thead>
+    <tbody class="text-[#2d3339] dark:text-[#cbd5e1]">
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Vancomycin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sand">Natural Glycopeptide</span></td>
+        <td class="py-2 px-3">Isolated from <i>Amycolatopsis orientalis</i> (Borneo soil). Name derived from <b>"vanquish"</b> + <code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">-mycin</code> (<i>Streptomyces</i> origin).</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Teicoplanin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sand">Natural Glycopeptide Complex</span></td>
+        <td class="py-2 px-3">From <i>Actinoplanes teichomyceticus</i> (Indian soil). <code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">teicho-</code> (Greek for <b>wall</b>, teichoic acid-like binding) + <code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">-planin</code>.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Telavancin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-slate">Dual-MOA Lipoglycopeptide</span></td>
+        <td class="py-2 px-3">Semisynthetic vancomycin derivative with lipophilic/hydrophilic moieties. Named after developer <b>Theravance</b> (<code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">Tela-</code>) + <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">-vancin</code>.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Oritavancin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-slate">Ultra Long-Acting Lipoglycopeptide</span></td>
+        <td class="py-2 px-3">Semisynthetic derived from fermentation of <i>Kibdelosporangium aridum</i>. Prefix chosen for pronounceability + <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">-vancin</code> suffix.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Dalbavancin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-slate">Once-Weekly Lipoglycopeptide</span></td>
+        <td class="py-2 px-3">Precursor produced by <i>Nonomuraea gerenzanensis</i>. Prefix chosen for international pronounceability + <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">-vancin</code> suffix.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Daptomycin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-rose">Cyclic Lipopeptide</span></td>
+        <td class="py-2 px-3">Isolated from <i>Streptomyces roseosporus</i> (Mount Ararat soil). <code class="px-1 py-0.5 rounded bg-[#f4e6e6] dark:bg-[#272020] text-[#4a3434] dark:text-[#ebd6d6] font-mono border border-[#dbbcbc] dark:border-[#3f2e2e]">dap-</code> likely stems from <b>decanoyl</b> (fatty acid tail) + <b>amino-peptide</b> + <code class="px-1 py-0.5 rounded bg-[#f4e6e6] dark:bg-[#272020] text-[#4a3434] dark:text-[#ebd6d6] font-mono border border-[#dbbcbc] dark:border-[#3f2e2e]">-mycin</code>.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+---
+layout: default
+class: overflow-y-auto
+---
+
+# Oxazolidinones & Lincosamides: Tables 11 & 12 Decoder
+<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">From DuPont toxicity to Upjohn breakthroughs and Lincoln, Nebraska soil (Beisel et al., Tables 11 & 12)</div>
+
+<div class="grid grid-cols-2 gap-3 mb-3 text-base">
+  <div class="p-2.5 rounded-xl bg-[#f2ebdf] dark:bg-[#26231e] m-border-sand">
+    <div class="font-bold text-[#372b1d] dark:text-[#e4d7c8] text-sm mb-1">💊 Oxazolidinones: DuPont to Upjohn & Tedizolid Naming</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>Upjohn Breakthrough:</b> Steven Brickner overcame DuPont myelosuppression; <b>Linezolid</b> (1993) combines morpho<code class="px-1 py-0.2 rounded bg-[#e5d7c3] text-[#372b1d] font-mono">line-</code> + oxa<code class="px-1 py-0.2 rounded bg-[#e5d7c3] text-[#372b1d] font-mono">-zolid</code>inone.</li>
+      <li><b>Tedizolid Naming Journey:</b> TR-700 assigned <i>Tetrezolid</i> (tetrazole ring) → rejected by USAN → <i>Torezolid</i> → rejected → finalized as <b>Tedizolid</b>.</li>
+    </ul>
+  </div>
+
+  <div class="p-2.5 rounded-xl bg-[#e2e9f0] dark:bg-[#1e252c] m-border-slate">
+    <div class="font-bold text-[#1f3143] dark:text-[#d3e0ec] text-sm mb-1">🌾 Lincosamides: Lincoln, Nebraska & Chlorination</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>Lincoln, Nebraska Soil (1960s):</b> <b>Lincomycin</b> isolated from <i>S. lincolnensis</i>; <code class="px-1 py-0.2 rounded bg-[#c8d6e5] text-[#1f3143] font-mono">-amide</code> refers to substituted prolinamide group.</li>
+      <li><b>Clindamycin Synergy:</b> Chlorinated derivative (<code class="px-1 py-0.2 rounded bg-[#c8d6e5] text-[#1f3143] font-mono">cl-</code> = <b>chlorinated</b>), dramatically improving oral bioavailability & anaerobic potency.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="overflow-x-auto text-sm">
+  <table class="w-full text-left">
+    <thead>
+      <tr>
+        <th class="py-2.5 px-3">Agent Name</th>
+        <th class="py-2.5 px-3">Class / Group</th>
+        <th class="py-2.5 px-3">Etymological & Chemical Origin (Beisel et al., Tables 11 & 12)</th>
+      </tr>
+    </thead>
+    <tbody class="text-[#2d3339] dark:text-[#cbd5e1]">
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Linezolid</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sand">Oxazolidinone Prototype</span></td>
+        <td class="py-2 px-3">Fully synthetic compound. <code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">line-</code> taken from <b>morpholine</b> structural component + <code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">-zolid</code> from oxazolidinone class.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Tedizolid</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sand">2nd Gen Oxazolidinone</span></td>
+        <td class="py-2 px-3">Fully synthetic compound. <code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">tedi-</code> prefix finalized after <i>tetrezolid</i> (tetrazole ring) and <i>torezolid</i> were rejected by USAN.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Lincomycin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-slate">Lincosamide Prototype</span></td>
+        <td class="py-2 px-3">Natural fermentation product named after <i>Streptomyces lincolnensis</i>, discovered from soil in <b>Lincoln, Nebraska</b>; <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">-amide</code> = prolinamide group.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Clindamycin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-slate">Chlorinated Lincosamide</span></td>
+        <td class="py-2 px-3">Chlorinated semisynthetic derivative of lincomycin (<code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">cl-</code> for <b>chlorinated</b>) designed for improved oral absorption and higher anaerobic activity.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+---
+layout: default
+class: overflow-y-auto
+---
+
+# Rifamycins & Polymyxins: Tables 13 & 14 Decoder
+<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">From 1950s French mob films to slimy soil bacilli and cationic polypeptides (Beisel et al., Tables 13 & 14)</div>
+
+<div class="grid grid-cols-2 gap-3 mb-2 text-base">
+  <div class="p-2.5 rounded-xl bg-[#f2ebdf] dark:bg-[#26231e] m-border-sand">
+    <div class="font-bold text-[#372b1d] dark:text-[#e4d7c8] text-sm mb-1">🎬 Rifamycins: Lepetit Labs & "Rififi" Heist Film</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>Milan Discovery (1957):</b> Isolated by Piero Sensi's team from <i>Streptomyces mediterranei</i> (<i>A. rifamycinica</i>). Rifamycin B isolated in pure form.</li>
+      <li><b>French Mob Movie Naming:</b> Nicknamed after 1955 French crime film <i><b>Rififi</b></i> (slang for fight/scuffle) → <b>Rifamycin</b>!</li>
+    </ul>
+  </div>
+
+  <div class="p-2.5 rounded-xl bg-[#e2e9f0] dark:bg-[#1e252c] m-border-slate">
+    <div class="font-bold text-[#1f3143] dark:text-[#d3e0ec] text-sm mb-1">🦠 Polymyxins: Slimy Bacilli & Cationic Polypeptides</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>Soil Origins (1947/1949):</b> Isolated from <i>Paenibacillus polymyxa</i> (Poly B) & <i>Bacillus colistinus</i> (Colistin / Poly E).</li>
+      <li><b>Etymology:</b> <code class="px-1 py-0.2 rounded bg-[#c8d6e5] text-[#1f3143] font-mono">poly-</code> = <b>polypeptide</b>; <code class="px-1 py-0.2 rounded bg-[#c8d6e5] text-[#1f3143] font-mono">myx-</code> = <b>slimy exudates</b> (exopolysaccharide). Chosen for lower toxicity.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="p-2.5 rounded-xl bg-[#e3ece5] dark:bg-[#1e2621] m-border-sage mb-3 text-base">
+  <div class="font-bold text-[#283a2c] dark:text-[#cde0d2] text-sm mb-1">🍄 Pleuromutilins: Mushroom Origin & C14 Modifications</div>
+  <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+    <li><b>NY Botanical Garden (1951):</b> Screened mushrooms <i>Pleurotus mutilus</i> & <i>P. passeckerianus</i> at Columbia Univ.</li>
+    <li><b>C-14 Side Chain & Stem:</b> Modified C-14 side chain for potency; universal stem <code class="px-1 py-0.2 rounded bg-[#cddccf] text-[#283a2c] font-mono">-mutilin</code> (Tiamulin, Retapamulin, Lefamulin).</li>
+  </ul>
+</div>
+
+<div class="overflow-x-auto text-sm">
+  <table class="w-full text-left">
+    <thead>
+      <tr>
+        <th class="py-2.5 px-3">Agent Name</th>
+        <th class="py-2.5 px-3">Class / Group</th>
+        <th class="py-2.5 px-3">Etymological & Structural Origin (Beisel et al., Tables 13 & 14)</th>
+      </tr>
+    </thead>
+    <tbody class="text-[#2d3339] dark:text-[#cbd5e1]">
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Rifampin / Rifampicin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sand">Rifamycin Prototype</span></td>
+        <td class="py-2 px-3">Product of <i>A. rifamycinica</i>; <code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">rif-</code> from French film <i>Rififi</i>; named after <i>N</i>-amino-<i>N</i>′-methylpiperazine derivative → <code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">rif-amp-icin</code>.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Rifabutin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sand">Isobutyl Derivative</span></td>
+        <td class="py-2 px-3">Derivative of rifamycin S; <code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">-butin</code> adapted from <b>"-butyl"</b> referring to the isobutyl side chain.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Rifapentine</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sand">Cyclopentyl Derivative</span></td>
+        <td class="py-2 px-3">Semisynthetic derivative from rifamycin SV with prolonged half-life; <code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">-pentine</code> derived from <b>cyclopentyl group</b> to increase lipophilicity and tissue penetration.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Rifaximin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sand">Non-Absorbable Imino Agent</span></td>
+        <td class="py-2 px-3">Semisynthetic derivative of rifamycin SV; <code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">-imin</code> suffix tied to the <b>imino group</b> preventing significant systemic absorption.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Polymyxin B</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-slate">Cationic Polypeptide</span></td>
+        <td class="py-2 px-3">Isolated from soil bacterium <i>Paenibacillus polymyxa</i> (labeled A–D); <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">poly-</code> refers to polypeptide structure; <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">myx-</code> refers to slimy exudates.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Colistin (Polymyxin E)</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-slate">Polymyxin E</span></td>
+        <td class="py-2 px-3">Isolated from <i>Bacillus colistinus</i>; labeled <b>Polymyxin E</b> as discovered 2 years after initial polymyxins (A–D). <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">poly-</code> refers to polypeptide structure.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+---
+layout: default
+class: overflow-y-auto
+---
+
+# Miscellaneous Antibiotics: Spanish Mountain Soil, Dental Miracles & Gut Targets
+<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">Fosfomycin, Metronidazole, and Fidaxomicin (Beisel et al., Section 8)</div>
+
+<div class="grid grid-cols-3 gap-3 mb-3 text-base">
+  <div class="p-2.5 rounded-xl bg-[#e2e9f0] dark:bg-[#1e252c] m-border-slate">
+    <div class="font-bold text-[#1f3143] dark:text-[#d3e0ec] text-sm mb-1">🏔️ Fosfomycin (Spanish Mountain Soil)</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>Mount Montgó, Spain (1969):</b> Merck & CEPA isolated <i>Streptomyces fradiae</i> near Alicante, Spain.</li>
+      <li><b>Etymology:</b> Originally <i>phosphonomycin</i> (epoxide + phosphonic acid structure); renamed <b>Fosfomycin</b> per INN standards.</li>
+    </ul>
+  </div>
+
+  <div class="p-2.5 rounded-xl bg-[#e3ece5] dark:bg-[#1e2621] m-border-sage">
+    <div class="font-bold text-[#283a2c] dark:text-[#cde0d2] text-sm mb-1">🦷 Metronidazole (The 1962 Dental Miracle)</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>Rhône-Poulenc Antiparasitic:</b> Derived from <i>azomycin</i> for <i>Trichomonas vaginalis</i>.</li>
+      <li><b>Bedside Surprise:</b> 1962 patient treated for trichomoniasis had trench mouth (gingivitis) resolve simultaneously → premier antianaerobic agent!</li>
+    </ul>
+  </div>
+
+  <div class="p-2.5 rounded-xl bg-[#f2ebdf] dark:bg-[#26231e] m-border-sand">
+    <div class="font-bold text-[#372b1d] dark:text-[#e4d7c8] text-sm mb-1">🎯 Fidaxomicin (Flaw Becomes a Feature)</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>Hamden, CT Soil (1970s):</b> Abbott isolated <i>Tiacumicin B</i> (<code class="px-1 py-0.2 rounded bg-[#e5d7c3] text-[#372b1d] font-mono">tiacum-</code> from <i>D. aurantiacum</i>); abandoned due to 0% oral absorption.</li>
+      <li><b>2000s Revival:</b> 0% systemic absorption became the ultimate feature for gut-targeted <i>C. difficile</i> therapy! Retained <code class="px-1 py-0.2 rounded bg-[#e5d7c3] text-[#372b1d] font-mono">-micin</code> (actinomycete).</li>
+    </ul>
+  </div>
+</div>
+
+---
+layout: default
+class: overflow-y-auto
+---
+
+# Miscellaneous Antibiotics: WWII Synthesis, Venezuelan Soil & Bacterial Antagonism
+<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">Nitrofurantoin, Chloramphenicol, and Mupirocin (Beisel et al., Section 8)</div>
+
+<div class="grid grid-cols-3 gap-3 mb-3 text-base">
+  <div class="p-2.5 rounded-xl bg-[#f4e6e6] dark:bg-[#272020] m-border-rose">
+    <div class="font-bold text-[#3b1d1d] dark:text-[#ebd6d6] text-sm mb-1">💊 Nitrofurantoin (WWII Synthetic Search)</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>Eaton Labs (1940s / 1953 FDA):</b> Synthesized during post-WWII search for novel antibacterials.</li>
+      <li><b>Etymology & Structure:</b> Nitrofuran ring + hydantoin side chain → <b>Nitro-furan-toin</b>.</li>
+    </ul>
+  </div>
+
+  <div class="p-2.5 rounded-xl bg-[#f2ebdf] dark:bg-[#26231e] m-border-sand">
+    <div class="font-bold text-[#372b1d] dark:text-[#e4d7c8] text-sm mb-1">🧪 Chloramphenicol (Venezuelan Soil Landmark)</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>Caracas Soil (1947):</b> Yale botanist Paul Burkholder isolated <i>S. venezuelae</i>; Mildred Rebstock (Parke-Davis) synthesized it (first natural antibiotic mass-produced!).</li>
+      <li><b>Name Breakdown:</b> <code class="px-1 py-0.2 rounded bg-[#e5d7c3] text-[#372b1d] font-mono">chlor-</code> (2 Cl) + <code class="px-1 py-0.2 rounded bg-[#e5d7c3] text-[#372b1d] font-mono">-am-</code> (amide) + <code class="px-1 py-0.2 rounded bg-[#e5d7c3] text-[#372b1d] font-mono">-phen-</code> (phenyl) + <code class="px-1 py-0.2 rounded bg-[#e5d7c3] text-[#372b1d] font-mono">-icol</code> (glycol).</li>
+    </ul>
+  </div>
+
+  <div class="p-2.5 rounded-xl bg-[#e2e9f0] dark:bg-[#1e252c] m-border-slate">
+    <div class="font-bold text-[#1f3143] dark:text-[#d3e0ec] text-sm mb-1">🧫 Mupirocin (Bacterial Antagonism)</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>1890s Discovery to 1960s Beecham:</b> Freudenreich noticed <i>P. fluorescens</i> antagonism. Beecham isolated <i>pseudomonic acid A</i> for topical use.</li>
+      <li><b>Renaming Rationale:</b> Renamed <i>Mupirocin</i> (<code class="px-1 py-0.2 rounded bg-[#c8d6e5] text-[#1f3143] font-mono">m-</code> monic acid + <code class="px-1 py-0.2 rounded bg-[#c8d6e5] text-[#1f3143] font-mono">-piro-</code> <i>Pseudomonas</i> + <code class="px-1 py-0.2 rounded bg-[#c8d6e5] text-[#1f3143] font-mono">-cin</code>) to avoid implying activity was solely vs <i>Pseudomonas</i>.</li>
+    </ul>
   </div>
 </div>
 
@@ -780,143 +1240,17 @@ layout: default
 layout: default
 ---
 
-# Tetracyclines: 4-Ring Skeletons & Glycylcyclines
-<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-4 font-normal tracking-wide">From golden actinomycetes to overcoming multidrug efflux pumps</div>
-
-<div class="grid grid-cols-2 gap-6">
-  <div>
-    <h3 class="text-base font-bold text-[#453b30] dark:text-[#e4d7c8] font-semibold mb-2">The Natural 4-Ring Origins</h3>
-    <ul class="text-base space-y-2 text-gray-600 dark:text-gray-300">
-      <li><b>Etymology:</b> Named strictly for their 4-fused ring structure: <b>tetra-</b> (four) + <b>-cycl-</b> (rings).</li>
-      <li><b>Chlortetracycline (Aureomycin, 1948):</b> Isolated by Benjamin Duggar from *Streptomyces aureofaciens* (Latin *aureus* = <b>golden</b> mold).</li>
-      <li><b>Oxytetracycline (Terramycin, 1950):</b> Screened from soil in Terre Haute, Indiana (Latin *terra* = <b>earth/soil</b>).</li>
-      <li><b>Doxycycline:</b> <b>doxy-</b> = contraction of <b>deoxy-</b> (absence of C-6 hydroxyl group → dramatically improved lipophilicity and oral absorption).</li>
-    </ul>
+<div class="grid grid-cols-10 gap-6 h-full items-center">
+  <div class="col-span-2 flex flex-col justify-center pr-2">
+    <div class="text-xs font-mono font-bold tracking-widest text-[#6e757c] dark:text-[#9ea6ae] uppercase mb-2">Section</div>
+    <h1 class="text-4xl font-extrabold text-[#31404e] dark:text-[#d3e0ec] tracking-tight leading-none">
+      Antifungal<br><span class="text-3xl font-bold opacity-90">Agents</span>
+    </h1>
   </div>
-
-  <div>
-    <h3 class="text-base font-bold text-[#4a3434] dark:text-[#ebd6d6] font-semibold mb-2">Overcoming Efflux: The Glycylcyclines</h3>
-    <div class="p-3 rounded-lg bg-[#f4e6e6] dark:bg-[#272020] border border-[#dbbcbc] dark:border-[#3f2e2e] text-base">
-      <div class="font-bold text-[#4a3434] dark:text-[#ebd6d6] font-semibold text-base">Tigecycline (Tygacil)</div>
-      <p class="mt-1 text-gray-600 dark:text-gray-300">
-        First semi-synthetic <b>glycylcycline</b> (a tetracycline modified with an $N$-alkyl-glycylamido side chain at C-9).
-        <br><br>
-        <b>Prefix origin:</b> Proposed acronym from <b>t-butyl-glycyl-amino</b> side chain.
-        <br><br>
-        <b>ICU Clinical Advantage:</b> The bulky group prevents ribosomal protection proteins and bacterial efflux pumps (TetA-E) from pumping the drug out!
-      </p>
-    </div>
+  <div class="col-span-8 flex justify-center items-center">
+    <img src="/fungal_frontier_bg.jpg" class="rounded-xl border border-[#b5c7d8] dark:border-[#2e3b47] shadow-md object-cover w-full max-h-[440px]" alt="Fungal Cell Structure" />
   </div>
 </div>
-
-
-
----
-layout: default
----
-
-# Glycopeptides & Lipopeptides: Vanquishing the Superbugs
-<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-4 font-normal tracking-wide">Born from the jungles of Borneo and Mount Ararat in Turkey</div>
-
-<div class="grid grid-cols-2 gap-6">
-  <div class="p-4 rounded-xl bg-[#e2e9f0] dark:bg-[#1e252c] border border-[#b5c7d8] dark:border-[#2e3b47]">
-    <div class="font-bold text-[#31404e] dark:text-[#d3e0ec] font-semibold text-base mb-1">Vancomycin: "To Vanquish" (1953)</div>
-    <ul class="text-base space-y-2 text-gray-600 dark:text-gray-300">
-      <li>Isolated by Eli Lilly chemist <b>Edmund Kornfeld</b> from a soil sample sent by a missionary from the deep jungles of <b>Borneo</b>.</li>
-      <li>Organism: *Amycolatopsis orientalis* (formerly *Streptomyces orientalis*).</li>
-      <li><b>Etymology:</b> Named directly from the English word <b>"VANQUISH"</b> (to utterly defeat or conquer), reflecting its miraculous ability to kill penicillin-resistant *S. aureus*!</li>
-      <li>Fast-tracked into clinical practice in 1958.</li>
-    </ul>
-  </div>
-
-  <div class="p-4 rounded-xl bg-[#f4e6e6] dark:bg-[#272020] border border-[#dbbcbc] dark:border-[#3f2e2e]">
-    <div class="font-bold text-[#4a3434] dark:text-[#ebd6d6] font-semibold text-base mb-1">Daptomycin: Cyclic Lipopeptide (1980s)</div>
-    <ul class="text-base space-y-2 text-gray-600 dark:text-gray-300">
-      <li>Isolated from soil collected on the slopes of <b>Mount Ararat in Turkey</b> (*Streptomyces roseosporus*).</li>
-      <li><b>Etymology:</b> Hypothesized portmanteau: <b>dap-</b> = <b>d</b>ecanoyl (fatty acid tail) + <b>a</b>mino <b>p</b>eptide core.</li>
-      <li><b>Novel MOA:</b> $Ca^{2+}$-dependent insertion of the lipophilic tail into bacterial plasma membrane → potassium leakage → rapid depolarization without cell lysis.</li>
-      <li>*Warning:* Inactivated by pulmonary surfactant!</li>
-    </ul>
-  </div>
-</div>
-
-
----
-layout: default
----
-
-# Oxazolidinones, Lincosamides, and a French Mob Movie
-<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-4 font-normal tracking-wide">The most colorful etymologies in antimicrobials</div>
-
-<div class="grid grid-cols-3 gap-3 text-base mt-3">
-  <div class="p-3 rounded-lg bg-gray-50 dark:bg-gray-800 border-t-4 border-indigo-500">
-    <div class="font-bold text-[#31404e] dark:text-[#d3e0ec] font-semibold text-base">Linezolid</div>
-    <p class="mt-1 text-gray-600 dark:text-gray-300">
-      Synthesized by Upjohn in 1993 after DuPont abandoned the class due to myelosuppression.
-      <br><br>
-      <b>Name breakdown:</b> <b>line-</b> from its morpho<b>line</b> ring + <b>-zolid</b> from the oxa<b>zolid</b>inone core ring.
-    </p>
-  </div>
-
-  <div class="p-3 rounded-lg bg-gray-50 dark:bg-gray-800 border-t-4 border-amber-500">
-    <div class="font-bold text-[#453b30] dark:text-[#e4d7c8] font-semibold text-base">Clindamycin</div>
-    <p class="mt-1 text-gray-600 dark:text-gray-300">
-      Parent drug *Lincomycin* was isolated from *Streptomyces lincolnensis* in a soil sample from <b>Lincoln, Nebraska</b>.
-      <br><br>
-      <b>Clindamycin:</b> <b>Cl-</b> indicates the chemical 7-chloro substitution, transforming oral bioavailability from poor to ~90%!
-    </p>
-  </div>
-
-  <div class="p-3 rounded-lg bg-gray-50 dark:bg-gray-800 border-t-4 border-rose-500">
-    <div class="font-bold text-[#4a3434] dark:text-[#ebd6d6] font-semibold text-base">Rifamycins & Rifampin</div>
-    <p class="mt-1 text-gray-600 dark:text-gray-300">
-      Isolated in 1957 at Lepetit Laboratories in Milan.
-      <br><br>
-      <b>The Movie Story:</b> Piero Sensi’s team loved the 1955 classic French crime heist movie <b>*Rififi*</b> (French slang for brawl/trouble) and nicknamed the compound <b>Rifomycin</b>!
-    </p>
-  </div>
-</div>
-
-<div class="mt-4 p-2 rounded bg-[#f4e6e6] dark:bg-[#272020] text-base text-[#4a3434] dark:text-[#ebd6d6] font-semibold  text-center font-mono">
-  Rifampin is quite literally named after a 1950s French gangster film!
-</div>
-
-
----
-layout: default
----
-
-# Unintended Triumphs: Accidental Discoveries in the ICU
-<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-4 font-normal tracking-wide">When failed drugs and veterinary agents find second life</div>
-
-<div class="grid grid-cols-2 gap-6 text-base">
-  <div class="p-3.5 rounded-xl bg-[#e3ece5] dark:bg-[#1e2621] border border-[#b8ccbb] dark:border-[#2d3a30]">
-    <div class="font-bold text-[#37453a] dark:text-[#cde0d2] font-semibold text-base">Metronidazole: The Dental Miracle (1962)</div>
-    <p class="mt-1 text-gray-600 dark:text-gray-300">
-      Developed solely as an antiparasitic agent for *Trichomonas vaginalis*.
-      <br><br>
-      <b>The Serendipitous Case:</b> In 1962, an English woman treated for vaginal trichomoniasis happened to also suffer from severe <b>acute necrotizing ulcerative gingivitis (Vincent's angina / trench mouth)</b>. Both infections cleared simultaneously!
-      <br><br>
-      This accidental bedside discovery launched metronidazole as the premier antianaerobic agent worldwide.
-    </p>
-  </div>
-
-  <div class="p-3.5 rounded-xl bg-[#f2ebdf] dark:bg-[#26231e] border border-[#d4c4af] dark:border-[#3d342a]">
-    <div class="font-bold text-[#453b30] dark:text-[#e4d7c8] font-semibold text-base">Fidaxomicin: A Flaw Becomes a Feature</div>
-    <p class="mt-1 text-gray-600 dark:text-gray-300">
-      Discovered in the 1970s at Abbott Laboratories as *Tiacumicin B*.
-      <br><br>
-      <b>The Failure:</b> Abandoned because oral dosing yielded undetectable serum concentrations (zero systemic absorption).
-      <br><br>
-      <b>The Revival:</b> With the 2000s surge of *Clostridioides difficile*, near-zero systemic absorption and minimal disruption of normal colonic microbiota made it the ideal first-line agent!
-    </p>
-  </div>
-</div>
-
-<div class="mt-3 p-2.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-base text-[#31404e] dark:text-[#d3e0ec] font-semibold ">
-  <b>Polymyxins (Colistin & Poly B):</b> Discovered in 1947 from *Paenibacillus polymyxa* (<b>myx-</b> = slimy exudate). Feared and shelved for decades due to severe nephrotoxicity; resurrected in the 2000s as our absolute last resort against pan-drug-resistant GNB.
-</div>
-
 
 ---
 layout: default
@@ -1088,5 +1422,3 @@ class: text-center
   Reference: Beisel C, et al. What’s in a Name? Etymology and History of Antibacterials and Antifungals.<br>
   *Open Forum Infectious Diseases*, 2026; ofag440.
 </div>
-
-
