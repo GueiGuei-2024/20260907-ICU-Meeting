@@ -341,261 +341,402 @@ class: overflow-y-auto
 
 ---
 layout: default
+class: overflow-y-auto
 ---
 
-# Cephalosporins: From Sardinian Sewers to Broad-Spectrum
-<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-4 font-normal tracking-wide">Giuseppe Brotzu's 1948 discovery in coastal seawater</div>
+# Cephalosporins: Discovery, History & Structural Evolution
+<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">From Sardinian sewage outfalls to broad-spectrum β-lactam therapy (Beisel et al., Section 4)</div>
 
-<div class="grid grid-cols-2 gap-6">
-  <div>
-    <h3 class="text-base font-bold text-[#31404e] dark:text-[#d3e0ec] font-semibold mb-2">The Sewer of Cagliari</h3>
-    <ul class="text-base space-y-2 text-gray-600 dark:text-gray-300">
-      <li>Italian microbiologist <b>Giuseppe Brotzu</b> investigated sewage outfalls in Sardinia.</li>
-      <li>He noticed young locals swimming in sewage-contaminated water rarely developed typhoid fever.</li>
-      <li>Isolated *Cephalosporium acremonium* (now *Acremonium chrysogenum*).</li>
-      <li>Produced Cephalosporin C (core: 7-aminocephalosporanic acid / 7-ACA).</li>
+<div class="grid grid-cols-2 gap-3 mb-3 text-base">
+  <div class="p-2.5 rounded-xl bg-[#f2ebdf] dark:bg-[#26231e] m-border-sand">
+    <div class="font-bold text-[#372b1d] dark:text-[#e4d7c8] text-base mb-1">🌊 The Sardinian Sewage Discovery (1948)</div>
+    <p class="text-sm text-[#2d3339] dark:text-[#cbd5e1] leading-relaxed">
+      Italian microbiologist <b>Giuseppe Brotzu</b> investigated sewage outfalls in Sardinia after noticing locals swimming there rarely developed typhoid fever. Isolated <i>Acremonium chrysogenum</i> (formerly <i>Cephalosporium acremonium</i>), producing <b>Cephalosporin C</b>.
+    </p>
+  </div>
+
+  <div class="p-2.5 rounded-xl bg-[#e3ece5] dark:bg-[#1e2621] m-border-sage">
+    <div class="font-bold text-[#283a2c] dark:text-[#cde0d2] text-base mb-1">🧪 The 7-ACA Nucleus & Cephalothin</div>
+    <p class="text-sm text-[#2d3339] dark:text-[#cbd5e1] leading-relaxed">
+      Chemical cleavage in 1962 produced <b>7-aminocephalosporanic acid (7-ACA)</b>, the core template for all semisynthetic derivatives. <b>Cephalothin</b> acquired its name from the added thiophene (<code class="px-1 py-0.5 rounded bg-[#cddccf] text-[#283a2c] font-mono">-th-</code>) group.
+    </p>
+  </div>
+</div>
+
+<div class="grid grid-cols-2 gap-3 text-base">
+  <div class="p-2.5 rounded-xl bg-[#e2e9f0] dark:bg-[#1e252c] m-border-slate">
+    <div class="font-bold text-[#1f3143] dark:text-[#d3e0ec] text-base mb-1">🧬 Generational Advancement</div>
+    <ul class="space-y-1 text-sm text-[#2d3339] dark:text-[#cbd5e1] pl-4 list-disc">
+      <li><b>1st Gen:</b> Active vs Gram-positive cocci (Cefazolin, Cephalexin).</li>
+      <li><b>2nd Gen / Cephamycins:</b> Expanded Gram-negative & anaerobic activity (Cefoxitin, Cefotetan).</li>
+      <li><b>3rd Gen:</b> High porin penetration & CNS penetration (Ceftriaxone, Ceftazidime).</li>
     </ul>
   </div>
 
-  <div>
-    <h3 class="text-base font-bold text-[#31404e] dark:text-[#d3e0ec] font-semibold mb-2">Deciphering the Name Clues</h3>
-    <div class="space-y-2 text-base">
-      <div class="p-2 rounded bg-gray-50 dark:bg-gray-800">
-        <b>Cephalexin:</b> *-alexin* from Greek *alexo* = <b>"to ward off"</b> or an antiquated immunological term for *complement*.
-      </div>
-      <div class="p-2 rounded bg-gray-50 dark:bg-gray-800">
-        <b>Cefazolin:</b> *-azol-* = <b>thiadiazole</b> ring + *-in*.
-      </div>
-      <div class="p-2 rounded bg-gray-50 dark:bg-gray-800">
-        <b>Ceftriaxone:</b> *-triaxone* refers to its modified <b>triazine-3-thiol</b> ring, responsible for 95% protein binding and biliary elimination.
-      </div>
-      <div class="p-2 rounded bg-gray-50 dark:bg-gray-800">
-        <b>Ceftazidime:</b> *-taz-* = amino<b>taz</b>olyl + *-idime* = pyr<b>idini</b>um ring.
-      </div>
-    </div>
-  </div>
-</div>
-
----
-layout: default
----
-
-# Advanced Cephalosporins & The Trojan Horse
-<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-4 font-normal tracking-wide">Combating resistant GNB in the modern ICU</div>
-
-<div class="grid grid-cols-2 gap-4 text-base mt-2">
-  <div class="p-3 rounded-lg bg-[#e2e9f0] dark:bg-[#1e252c] border border-[#b5c7d8] dark:border-[#2e3b47]">
-    <div class="font-bold text-[#31404e] dark:text-[#d3e0ec] font-semibold text-base">Cefepime (4th Gen)</div>
-    <p class="mt-1 text-gray-600 dark:text-gray-300">
-      <b>-epime:</b> Refers to the <b>methoxyimino</b> (or oxime) moiety at C-7 and the quaternary $N$-methylpyrrolidine group.
-    </p>
-    <div class="mt-2 text-[#31404e] dark:text-[#d3e0ec] font-semibold font-mono text-base">
-      Clinical significance: Forms a zwitterion; penetrates GNB outer membrane rapidly while resisting AmpC β-lactamase hydrolysis.
-    </div>
-  </div>
-
-  <div class="p-3 rounded-lg badge-sand border border-[#dbbcbc] dark:border-[#3f2e2e]">
-    <div class="font-bold text-[#4a3434] dark:text-[#ebd6d6] font-semibold text-base">Ceftaroline & Ceftobiprole (5th Gen)</div>
-    <p class="mt-1 text-gray-600 dark:text-gray-300">
-      Selected for distinct phonetic pronunciation to demarcate a new anti-MRSA class.
-    </p>
-    <div class="mt-2 text-[#4a3434] dark:text-[#ebd6d6] font-semibold font-mono text-base">
-      Clinical significance: Bulky 1,3-thiazole side chains capable of binding and inhibiting PBP2a in MRSA.
-    </div>
-  </div>
-</div>
-
-<div class="mt-4 p-3 rounded-xl bg-[#f2ebdf] dark:bg-[#26231e] border border-[#d4c4af] dark:border-[#3d342a] text-base">
-  <div class="font-bold text-[#453b30] dark:text-[#e4d7c8] font-semibold text-base mb-1">Cefiderocol: The Siderophore Mechanism</div>
-  <p class="text-gray-600 dark:text-gray-300">
-    Combines a cephalosporin core with a catechol <b>siderophore</b> side chain. It mimics natural bacterial iron-chelating complexes, binding ferric iron ($Fe^{3+}$) and exploiting bacterial active iron transport channels to enter the periplasm like a <b>Trojan Horse</b>. Highly stable against carbapenemases (KPC, NDM, VIM, IMP, OXA-48).
-  </p>
-</div>
-
----
-layout: default
----
-
-# Carbapenems: The Antibiotic Heavy Artillery
-<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-4 font-normal tracking-wide">From fragile Thienamycin to stable bedside lifesavers</div>
-
-<div class="grid grid-cols-2 gap-4 text-base">
-  <div class="space-y-3">
-    <div class="p-2.5 rounded bg-gray-50 dark:bg-gray-800 m-border-sage">
-      <b>Thienamycin:</b> Isolated from *Streptomyces cattleya* (1970s). Incredible ESBL activity, but instantly degraded in aqueous solution.
-    </div>
-    <div class="p-2.5 rounded bg-gray-50 dark:bg-gray-800 m-border-sage">
-      <b>The Architecture:</b> <b>Carba-</b> = carbon substituted for sulfur at position 1 of the 5-membered ring + double bond between C2 & C3 → <b>-penem</b>.
-    </div>
-    <div class="p-2.5 rounded bg-gray-50 dark:bg-gray-800 m-border-sage">
-      <b>Imipenem (1985):</b> $N$-form<b>imi</b>doyl derivative of thienamycin. Prone to renal dehydropeptidase-1 (DHP-1) hydrolysis; required combination with <b>Cilastatin</b>.
-    </div>
-  </div>
-
-  <div class="space-y-3">
-    <div class="p-3 rounded-lg bg-[#e3ece5] dark:bg-[#1e2621] border border-[#b8ccbb] dark:border-[#2d3a30]">
-      <div class="font-bold text-[#37453a] dark:text-[#cde0d2] font-semibold text-base">Meropenem (1996)</div>
-      <p class="mt-1 text-gray-600 dark:text-gray-300">
-        <b>mero-</b> = partial/part. Engineered with a bulky <b>1-β-methyl</b> substituent that sterically prevents DHP-1 degradation, eliminating the need for cilastatin and significantly reducing seizure risk.
-      </p>
-    </div>
-
-    <div class="p-3 rounded-lg badge-sand border border-[#dbbcbc] dark:border-[#3f2e2e]">
-      <div class="font-bold text-[#4a3434] dark:text-[#ebd6d6] font-semibold text-base">Ertapenem (2001)</div>
-      <p class="mt-1 text-gray-600 dark:text-gray-300">
-        Features a <b>benzoic/carboxylic acid</b> moiety causing negative charge and high albumin binding (>90%). Half-life prolonged to ~4 hours, unlocking <b>once-daily dosing</b> (ideal for OPAT).
-      </p>
-    </div>
-  </div>
-</div>
-
----
-layout: default
----
-
-# Monobactams: The Solitary Ring (Aztreonam)
-<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-4 font-normal tracking-wide">A unique monocyclic β-lactam tailored for Gram-negative sepsis</div>
-
-<div class="grid grid-cols-2 gap-6 mt-3">
-  <div>
-    <h3 class="text-base font-bold text-[#31404e] dark:text-[#d3e0ec] font-semibold mb-2">Etymological Breakdown</h3>
-    <div class="p-4 rounded-xl bg-gray-50 dark:bg-gray-800 space-y-3 text-base">
-      <div>
-        <span class="font-bold font-mono text-indigo-500">az-</span>
-        <p class="text-gray-600 dark:text-gray-300">Refers to the 2-<b>az</b>etidinone core (a solitary 4-membered β-lactam ring with NO fused second ring!).</p>
-      </div>
-      <div>
-        <span class="font-bold font-mono text-indigo-500">-tre- (or -thre-)</span>
-        <p class="text-gray-600 dark:text-gray-300">Traced to the starting amino acid <b>threonine</b>, used to synthesize the essential 4-methyl intermediate at Squibb Laboratories.</p>
-      </div>
-      <div>
-        <span class="font-bold font-mono text-indigo-500">-onam</span>
-        <p class="text-gray-600 dark:text-gray-300">Official USAN stem designating monobactam antibiotics.</p>
-      </div>
-    </div>
-  </div>
-
-  <div>
-    <h3 class="text-base font-bold text-[#4a3434] dark:text-[#ebd6d6] font-semibold mb-2">ICU Clinical Pearl Highlights</h3>
-    <div class="space-y-2 text-base">
-      <div class="p-2.5 rounded bg-[#f4e6e6] dark:bg-[#272020] border border-[#dbbcbc] dark:border-[#3f2e2e] text-gray-700 dark:text-gray-200">
-        <b>Strict G(-) Spectrum:</b> Binds specifically to PBP-3 of Gram-negative aerobic bacilli; zero activity against Gram-positives or anaerobes.
-      </div>
-      <div class="p-2.5 rounded bg-[#e3ece5] dark:bg-[#1e2621] border border-[#b8ccbb] dark:border-[#2d3a30] text-gray-700 dark:text-gray-200">
-        <b>Resistant to Metallo-β-Lactamases:</b> Inherently stable against zinc-dependent Ambler Class B metallo-β-lactamases (NDM, VIM, IMP).
-      </div>
-      <div class="p-2.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] border border-[#b5c7d8] dark:border-[#2e3b47] text-gray-700 dark:text-gray-200">
-        <b>Low Allergic Cross-Reactivity:</b> Safely administered in patients with severe IgE-mediated penicillin/cephalosporin allergies (exception: ceftazidime, which shares an identical side chain!).
-      </div>
-    </div>
-  </div>
-</div>
-
----
-layout: default
----
-
-# Aminoglycosides: Soil Actinomycetes & The Nobel Feud
-<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-4 font-normal tracking-wide">A single letter reveals the microbial genus</div>
-
-<div class="grid grid-cols-2 gap-6">
-  <div>
-    <div class="p-4 rounded-xl bg-[#e2e9f0] dark:bg-[#1e252c] border border-[#b5c7d8] dark:border-[#2e3b47]">
-      <div class="text-[#31404e] dark:text-[#d3e0ec] font-semibold font-bold text-base mb-2 font-mono">The "-mycin" vs. "-micin" Rule</div>
-      <p class="text-base text-gray-600 dark:text-gray-300 leading-relaxed">
-        <b class="text-[#31404e] dark:text-[#d3e0ec] font-semibold  font-mono">-mycin (with a 'y'):</b><br>
-        Originates from the genus <b>*Streptomyces*</b>.<br>
-        *Examples:* Streptomycin, Tobramycin, Kanamycin, Neomycin.<br><br>
-        <b class="text-[#31404e] dark:text-[#d3e0ec] font-semibold  font-mono">-micin (with an 'i'):</b><br>
-        Originates from the genus <b>*Micromonospora*</b>.<br>
-        *Examples:* Gentamicin, Netilmicin, Sisomicin.
-      </p>
-    </div>
-  </div>
-
-  <div>
-    <h3 class="text-base font-bold text-[#453b30] dark:text-[#e4d7c8] font-semibold mb-2">The Streptomycin Controversy (1944)</h3>
-    <ul class="text-base space-y-2 text-gray-600 dark:text-gray-300">
-      <li>First effective therapy for *Mycobacterium tuberculosis*.</li>
-      <li>Discovered from *Streptomyces griseus* (*strepto-* = twisting chain).</li>
-      <li><b>The Nobel Injustice:</b> The 1952 Nobel Prize was awarded solely to laboratory director <b>Selman Waksman</b>.</li>
-      <li><b>Albert Schatz</b>, the 23-year-old graduate student who worked in the basement lab, handled pathogenic cultures, and actually isolated the compound, was omitted.</li>
-      <li>Schatz filed a lawsuit in 1950, securing legal recognition and royalty shares as the official co-discoverer.</li>
+  <div class="p-2.5 rounded-xl bg-[#f4e6e6] dark:bg-[#272020] m-border-rose">
+    <div class="font-bold text-[#3b1d1d] dark:text-[#ebd6d6] text-base mb-1">🛡️ 4th/5th Gen & Trojan Horse Innovation</div>
+    <ul class="space-y-1 text-sm text-[#2d3339] dark:text-[#cbd5e1] pl-4 list-disc">
+      <li><b>Cefepime (4th Gen):</b> Zwitterion; C-7 methoxyimino + C-3 pyrrolidine.</li>
+      <li><b>Ceftaroline (5th Gen):</b> Thiazole side chain targeting MRSA PBP2a.</li>
+      <li><b>Cefiderocol:</b> Siderophore cephalosporin exploiting active $Fe^{3+}$ transport like a Trojan Horse.</li>
     </ul>
   </div>
 </div>
 
 ---
 layout: default
+class: overflow-y-auto
 ---
 
-# Aminoglycoside Names: Violets, States, and Portmanteaus
-<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-4 font-normal tracking-wide">Etymology behind clinical aminoglycosides</div>
+# Cephalosporin Architecture: USAN Table 3 Decoder
+<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">Etymology and chemical derivations of major cephalosporin analogs (Beisel et al., Table 3)</div>
 
-<div class="grid grid-cols-2 gap-4 text-base mt-3">
-  <div class="p-3 rounded-lg bg-[#f4e6e6] dark:bg-[#272020] border border-[#dbbcbc] dark:border-[#3f2e2e]">
-    <div class="font-bold text-[#4a3434] dark:text-[#ebd6d6] font-semibold text-base">Gentamicin (1963)</div>
-    <p class="mt-1 text-gray-600 dark:text-gray-300">
-      Discovered from *Micromonospora purpurea*. The prefix <b>gent-</b> was derived from <b>Gentian Violet</b> because of the striking, intense purple pigment produced by the colony on culture media!
-    </p>
-  </div>
-
-  <div class="p-3 rounded-lg bg-[#f2ebdf] dark:bg-[#26231e] border border-[#d4c4af] dark:border-[#3d342a]">
-    <div class="font-bold text-[#453b30] dark:text-[#e4d7c8] font-semibold text-base">Tobramycin</div>
-    <p class="mt-1 text-gray-600 dark:text-gray-300">
-      Isolated from *Streptomyces tenebrarius* in an antibiotic complex called *nebramycin*—named after the state of <b>Nebraska</b> where the soil was collected! <b>tobra-</b> is an anagrammatic alteration of tenebrarius.
-    </p>
-  </div>
-
-  <div class="p-3 rounded-lg bg-[#e2e9f0] dark:bg-[#1e252c] border border-[#b5c7d8] dark:border-[#2e3b47]">
-    <div class="font-bold text-[#31404e] dark:text-[#d3e0ec] font-semibold text-base">Amikacin</div>
-    <p class="mt-1 text-gray-600 dark:text-gray-300">
-      A semi-synthetic derivative of Kanamycin: a clever portmanteau blending <b>ami</b>noglycoside + <b>ka</b>namy<b>cin</b>.
-    </p>
-  </div>
-
-  <div class="p-3 rounded-lg bg-[#e2e9f0] dark:bg-[#1e252c] border border-[#b5c7d8] dark:border-[#2e3b47]">
-    <div class="font-bold text-[#31404e] dark:text-[#d3e0ec] font-semibold  text-base">Plazomicin</div>
-    <p class="mt-1 text-gray-600 dark:text-gray-300">
-      Next-generation synthetic neoglycoside derived from sisomicin; engineered with protective side chains to evade aminoglycoside-modifying enzymes (AMEs).
-    </p>
-  </div>
+<div class="overflow-x-auto text-sm">
+  <table class="w-full text-left">
+    <thead>
+      <tr>
+        <th class="py-2.5 px-3">Agent Name</th>
+        <th class="py-2.5 px-3">Sub-Class / Generation</th>
+        <th class="py-2.5 px-3">Etymological & Chemical Origin (Beisel et al., Table 3)</th>
+      </tr>
+    </thead>
+    <tbody class="text-[#2d3339] dark:text-[#cbd5e1]">
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Cefazolin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sand">1st Generation</span></td>
+        <td class="py-2 px-3"><code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">Cef-</code> class prefix + <code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">-azol-</code> referring to the <b>thiadiazole ring</b> + <code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">-in</code> antimicrobial suffix. Derived from 7-ACA.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Cephalexin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sand">1st Generation</span></td>
+        <td class="py-2 px-3"><code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">Ceph-</code> class prefix + <code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">-alexin</code> from Greek <i>alexo</i> (<b>"to ward off"</b>) and an antiquated immunological term for complement.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Cefadroxil</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sand">1st Generation (Oral)</span></td>
+        <td class="py-2 px-3">Semisynthetic oral agent; <code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">-adroxil</code> suffix refers to a <b>hydroxylated</b> side chain.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Cefuroxime</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-slate">2nd Generation</span></td>
+        <td class="py-2 px-3"><code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">-uroxime</code> combines <i>oxy</i> (oxygen atom in β-lactam ring) + <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">-ime</code> indicating an <b>oxime group</b>.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Cefotetan</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-slate">2nd Gen (Cephamycin)</span></td>
+        <td class="py-2 px-3">Cephamycin subset; <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">-tetan</code> derives from its <b>7-methyl-tetrazol-5-yl</b> side chain.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Cefaclor</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-slate">2nd Generation</span></td>
+        <td class="py-2 px-3">Named after the class prefix + <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">-clor</code> referring to <b>chlorine at C-3 position</b> of cephem nucleus.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Cefoxitin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-slate">2nd Gen (Cephamycin)</span></td>
+        <td class="py-2 px-3">Derived from cephamycin C (<i>Streptomyces lactamdurans</i>); <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">-ox-</code> = <b>7-α-methoxyl group</b> + <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">-tin</code> abbreviation for thiophene.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Cefprozil</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-slate">2nd Generation</span></td>
+        <td class="py-2 px-3">Compound abbreviation: <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">-pro-</code> = <b>propenyl group</b> + <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">-zil</code> from the <b>benzyl</b> portion.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Ceftriaxone</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sage">3rd Generation</span></td>
+        <td class="py-2 px-3">Semisynthetic derivative of cephalosporin C; <code class="px-1 py-0.5 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#37453a] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">-triaxone</code> is an altered form of the <b>triazine-3-thiol</b> substituent.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Cefdinir</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sage">3rd Generation</span></td>
+        <td class="py-2 px-3"><code class="px-1 py-0.5 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#37453a] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">-dinir</code> signifies <b>di-vinyl</b> and <b>n-itroso/i-mine</b> chemical groups present in its structure.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Cefotaxime</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sage">3rd Generation</span></td>
+        <td class="py-2 px-3"><code class="px-1 py-0.5 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#37453a] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">-taxime</code> is an abbreviation of the <b>aminothiazolyl</b> and <b>methyloxime</b> side chains.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Cefixime</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sage">3rd Generation (Oral)</span></td>
+        <td class="py-2 px-3"><code class="px-1 py-0.5 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#37453a] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">-ixime</code> refers to oxime/vinyl group at C-3 position of cephem nucleus, facilitating intestinal absorption.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Cefpodoxime</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sage">3rd Generation (Oral)</span></td>
+        <td class="py-2 px-3"><code class="px-1 py-0.5 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#37453a] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">-podoxime</code> suffix refers to the <b>methoxyimino</b> group. No other naming information available.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Cefepime</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-rose">4th Generation</span></td>
+        <td class="py-2 px-3"><code class="px-1 py-0.5 rounded bg-[#f4e6e6] dark:bg-[#272020] text-[#4a3434] dark:text-[#ebd6d6] font-mono border border-[#dbbcbc] dark:border-[#3f2e2e]">-epime</code> references the <b>methoxyimino (oxime) moiety</b> at C-7 position, enhancing β-lactamase stability.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Ceftaroline</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-rose">5th Gen (Anti-MRSA)</span></td>
+        <td class="py-2 px-3">Derived from cefozopran; named for pronounceability to denote a different generation from predecessors.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Ceftobiprole</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-rose">5th Gen (Anti-MRSA)</span></td>
+        <td class="py-2 px-3">Unique class suffix selected for international pronounceability to indicate a distinct generation.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Ceftolozane</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-rose">Novel Anti-Pseudomonal</span></td>
+        <td class="py-2 px-3">Hybridized derivative of its chemical structure, featuring a novel <b>oxyimino-aminothiazolyl</b> group.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Cefiderocol</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-rose">Siderophore Trojan Horse</span></td>
+        <td class="py-2 px-3">Siderophore cephalosporin; name chosen to indicate a unique class and for international pronounceability.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Ceftibuten</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sage">3rd Generation (Oral)</span></td>
+        <td class="py-2 px-3"><code class="px-1 py-0.5 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#37453a] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">-tibutent</code> / <code class="px-1 py-0.5 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#37453a] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">-buten</code> derived from the presence of a <b>butanoic acid</b> component.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Cefditoren</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sage">3rd Generation (Oral)</span></td>
+        <td class="py-2 px-3">Suffix chosen to indicate a unique class and for smooth international pronounceability.</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 ---
 layout: default
+class: overflow-y-auto
 ---
 
-# Macrolides: Big Rings and Greek Roots
-<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-4 font-normal tracking-wide">Chemical architecture defined by Nobel laureate R.B. Woodward</div>
+# Carbapenems & Monobactams: Architecture & Table 4 Decoder
+<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">From fragile Thienamycin to DHP-1 stable lifesavers and monocyclic β-lactams (Beisel et al., Table 4)</div>
 
-<div class="grid grid-cols-2 gap-6">
-  <div>
-    <h3 class="text-base font-bold text-[#31404e] dark:text-[#d3e0ec] font-semibold mb-2">The Molecular Architecture</h3>
-    <ul class="text-base space-y-2 text-gray-600 dark:text-gray-300">
-      <li><b>Etymology:</b> Greek *makros* (large) + *-lide* (lactone). Coined by legendary organic chemist <b>R.B. Woodward</b> to describe large 12- to 16-membered cyclic ester rings.</li>
-      <li><b>Pikromycin (1950):</b> The very first recognized macrolide, named from Greek *pikros* = <b>"bitter"</b>, due to its intensely bitter taste.</li>
-      <li><b>Erythromycin (1952):</b> Screened from soil in the Philippines (*Streptomyces erythreus*). Named from Greek *erythros* = <b>"red"</b> due to its reddish bacterial culture.</li>
+<div class="grid grid-cols-2 gap-3 mb-2.5 text-base">
+  <div class="p-2.5 rounded-xl bg-[#f2ebdf] dark:bg-[#26231e] m-border-sand">
+    <div class="font-bold text-[#372b1d] dark:text-[#e4d7c8] text-sm mb-1">📜 Carbapenem Discovery & Imipenem Milestone</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>1960s-70s Search:</b> Penicillin resistance spurred the isolation of <i>Thienamycin</i> from <i>S. cattleya</i> (<code class="px-1 py-0.2 rounded bg-[#e5d7c3] text-[#372b1d] font-mono">thiena-</code> = sulfur side chain).</li>
+      <li><b>1985 Imipenem Milestone:</b> Fragile thienamycin stabilized into Imipenem, paired with Cilastatin to defeat renal DHP-1 degradation.</li>
     </ul>
   </div>
 
-  <div>
-    <h3 class="text-base font-bold text-[#31404e] dark:text-[#d3e0ec] font-semibold mb-2">Second-Generation Refinements</h3>
-    <div class="space-y-3 text-base">
-      <div class="p-3 rounded-lg bg-[#e2e9f0] dark:bg-[#1e252c] border border-[#b5c7d8] dark:border-[#2e3b47]">
-        <b>Azithromycin (The Azalide):</b>
-        <p class="mt-1 text-gray-600 dark:text-gray-300">
-          Synthesized by inserting a methyl-substituted nitrogen atom (<b>aza-</b>) directly into the 14-membered lactone ring to create a 15-membered azalide. Eliminates hemiketal formation → prevents gastrointestinal cramping and enables massive intracellular tissue retention!
-        </p>
-      </div>
-      <div class="p-3 rounded-lg bg-[#e2e9f0] dark:bg-[#1e252c] border border-[#b5c7d8] dark:border-[#2e3b47]">
-        <b>Clarithromycin:</b>
-        <p class="mt-1 text-gray-600 dark:text-gray-300">
-          Prefix from Latin *clarus* = <b>"clear"</b> or <b>"bright"</b>, denoting its refined 6-O-methylation that conferred superior acid stability and a clearer pharmacokinetic profile.
-        </p>
-      </div>
-    </div>
+  <div class="p-2.5 rounded-xl bg-[#e2e9f0] dark:bg-[#1e252c] m-border-slate">
+    <div class="font-bold text-[#1f3143] dark:text-[#d3e0ec] text-sm mb-1">🚀 Bedside Evolution: DHP-1 Stability & OPAT</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>1990s Meropenem:</b> Engineered C1-methyl modification to resist DHP-1 metabolism independently without needing cilastatin.</li>
+      <li><b>2001 Ertapenem:</b> Extended serum albumin binding, unlocking outpatient <i>once-daily dosing</i> (OPAT).</li>
+    </ul>
   </div>
+</div>
+
+<div class="grid grid-cols-2 gap-3 mb-3 text-base">
+  <div class="p-2.5 rounded-xl bg-[#e3ece5] dark:bg-[#1e2621] m-border-sage">
+    <div class="font-bold text-[#283a2c] dark:text-[#cde0d2] text-sm mb-1">🍃 Monobactam Concept & Natural Origin</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>1981 Monocyclic Concept:</b> Sykes et al. defined <i>Monobactam</i> for monocyclic 2-azetidinone compounds lacking fused bicyclic rings.</li>
+      <li><b>Natural Isolation:</b> Isolated <i>Sulfazecin</i> & <i>Isosulfazecin</i> from <i>Pseudomonas</i>, though natural forms had weak antimicrobial activity.</li>
+    </ul>
+  </div>
+
+  <div class="p-2.5 rounded-xl bg-[#f4e6e6] dark:bg-[#272020] m-border-rose">
+    <div class="font-bold text-[#3b1d1d] dark:text-[#ebd6d6] text-sm mb-1">🧪 Aztreonam Synthetic Landmark & Clinical Role</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>Squibb Breakthrough:</b> Fully synthetic Aztreonam prepared using <i>Threonine</i> (<code class="px-1 py-0.2 rounded bg-[#e5c9c9] text-[#3b1d1d] font-mono">-tre-</code>) as amino acid starting material.</li>
+      <li><b>MBL Stability:</b> Gram-negative specific agent; resists Class B metallo-β-lactamases & minimal penicillin cross-allergy.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="overflow-x-auto text-sm">
+  <table class="w-full text-left">
+    <thead>
+      <tr>
+        <th class="py-2.5 px-3">Agent Name</th>
+        <th class="py-2.5 px-3">Category / Class</th>
+        <th class="py-2.5 px-3">Etymological & Structural Origin (Beisel et al., Table 4)</th>
+      </tr>
+    </thead>
+    <tbody class="text-[#2d3339] dark:text-[#cbd5e1]">
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Imipenem</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sand">1st Gen Carbapenem</span></td>
+        <td class="py-2 px-3"><code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">imi-</code> prefix refers to the <i>N</i>-form<b>imi</b>doyl side chain containing an imino-like functional group. Co-administered with cilastatin vs DHP-1.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Meropenem</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-slate">DHP-1 Stable Carbapenem</span></td>
+        <td class="py-2 px-3"><code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">mero-</code> means partial or part (Greek <i>meros</i>). May refer to C1-methyl ring modification protecting against DHP-1 degradation.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Ertapenem</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sand">Once-Daily Carbapenem</span></td>
+        <td class="py-2 px-3"><code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">erta-</code> prefix chosen for international pronounceability. Benzoic/carboxylic acid moiety enables high protein binding.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Sulopenem</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sage">Oral Thiopenem</span></td>
+        <td class="py-2 px-3"><code class="px-1 py-0.5 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#37453a] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">sul-</code> prefix refers to the <b>sulfur atom</b> present in the molecule. Classified specifically as a thiopenem.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Tebipenem</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sage">Oral Carbapenem</span></td>
+        <td class="py-2 px-3"><code class="px-1 py-0.5 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#37453a] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">tebi-</code> prefix selected for international pronounceability similar to other recent antimicrobials.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Aztreonam</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-rose">Monobactam Prototype</span></td>
+        <td class="py-2 px-3"><code class="px-1 py-0.5 rounded bg-[#f4e6e6] dark:bg-[#272020] text-[#4a3434] dark:text-[#ebd6d6] font-mono border border-[#dbbcbc] dark:border-[#3f2e2e]">az-</code> derived from 2-<b>az</b>etidinone ring moiety; <code class="px-1 py-0.5 rounded bg-[#f4e6e6] dark:bg-[#272020] text-[#4a3434] dark:text-[#ebd6d6] font-mono border border-[#dbbcbc] dark:border-[#3f2e2e]">-tre-</code> stems from <b>threonine</b> (amino acid starting material); <code class="px-1 py-0.5 rounded bg-[#f4e6e6] dark:bg-[#272020] text-[#4a3434] dark:text-[#ebd6d6] font-mono border border-[#dbbcbc] dark:border-[#3f2e2e]">-onam</code> monobactam stem.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+---
+layout: default
+class: overflow-y-auto
+---
+
+# Aminoglycosides: Soil Actinomycetes & Table 5 Decoder
+<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">Historical discovery, the Nobel controversy, and the "-mycin" vs "-micin" rule (Beisel et al., Table 5)</div>
+
+<div class="grid grid-cols-2 gap-3 mb-3 text-base">
+  <div class="p-2.5 rounded-xl bg-[#e2e9f0] dark:bg-[#1e252c] m-border-slate">
+    <div class="font-bold text-[#1f3143] dark:text-[#d3e0ec] text-sm mb-1">🏷️ The "-mycin" vs. "-micin" Genus Rule</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>Etymology:</b> Portmanteau of <i>amino sugars</i> + <i>glycosidic bonds</i>.</li>
+      <li><code class="px-1 py-0.2 rounded bg-[#cddccf] text-[#283a2c] font-mono">-mycin</code> (with 'y'): Genus <b><i>Streptomyces</i></b> (Streptomycin, Tobramycin).</li>
+      <li><code class="px-1 py-0.2 rounded bg-[#c8d6e5] text-[#1f3143] font-mono">-micin</code> (with 'i'): Genus <b><i>Micromonospora</i></b> (Gentamicin, Netilmicin).</li>
+    </ul>
+  </div>
+
+  <div class="p-2.5 rounded-xl bg-[#f2ebdf] dark:bg-[#26231e] m-border-sand">
+    <div class="font-bold text-[#372b1d] dark:text-[#e4d7c8] text-sm mb-1">⚖️ Streptomycin & The 1952 Nobel Controversy</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>First Aminoglycoside (1944):</b> Streptomycin isolated from <i>Streptomyces griseus</i> in Waksman's laboratory.</li>
+      <li><b>Nobel Controversy:</b> 1952 Nobel awarded solely to lab director <b>Selman Waksman</b>. Graduate student <b>Albert Schatz</b>, who actually isolated it, was recognized as co-discoverer only after legal settlement and review.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="overflow-x-auto text-sm">
+  <table class="w-full text-left">
+    <thead>
+      <tr>
+        <th class="py-2.5 px-3">Agent Name</th>
+        <th class="py-2.5 px-3">Category / Class</th>
+        <th class="py-2.5 px-3">Etymological & Microbial Origin (Beisel et al., Table 5)</th>
+      </tr>
+    </thead>
+    <tbody class="text-[#2d3339] dark:text-[#cbd5e1]">
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Streptomycin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sand">Streptomyces (-mycin)</span></td>
+        <td class="py-2 px-3"><code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">strepto-</code> refers to twisting/coiled nature of <i>Streptomyces griseus</i>; <code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">-mycin</code> denotes <i>Streptomyces</i> genus.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Neomycin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sand">Streptomyces (-mycin)</span></td>
+        <td class="py-2 px-3"><code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">neo-</code> from Greek for <b>"new"</b> (new antibiotic discovered from <i>Streptomyces fradiae</i> distinguishing it from earlier agents) + <code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">-mycin</code>.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Kanamycin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sand">Streptomyces (-mycin)</span></td>
+        <td class="py-2 px-3"><code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">kana-</code> originates from isolated organism <i>Streptomyces kanamyceticus</i> + <code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">-mycin</code>.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Paromomycin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sand">Streptomyces (-mycin)</span></td>
+        <td class="py-2 px-3">Derived from <i>Streptomyces rimosus</i> var. <i>paromomycinus</i>. Original drug named <i>aminosidine</i> before being renamed.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Gentamicin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-slate">Micromonospora (-micin)</span></td>
+        <td class="py-2 px-3"><code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">gent-</code> derived from <b>gentian violet</b> due to purple color of producing <i>Micromonospora purpurea</i>; <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">-micin</code> suffix.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Tobramycin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sand">Streptomyces (-mycin)</span></td>
+        <td class="py-2 px-3"><code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">tobra-</code> altered form of species <i>Streptomyces tenebrarius</i>; derived from nebramycin complex (named after state of <b>Nebraska</b>).</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Netilmicin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-slate">Semisynthetic (-micin)</span></td>
+        <td class="py-2 px-3"><code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">netil-</code> from <b><i>N</i>-ethyl</b> derivative of sisomicin (<i>Micromonospora inyoensis</i>, Inyo County, CA); <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">-micin</code> suffix.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Amikacin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sage">Semisynthetic Derivative</span></td>
+        <td class="py-2 px-3">Semisynthetic derivative of kanamycin: portmanteau derived from <b>ami</b>(noglycoside) + <b>ka</b>(namy)<b>cin</b>.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Spectinomycin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sand">Aminocyclitol (-mycin)</span></td>
+        <td class="py-2 px-3">Named after producing strain <i>Streptomyces spectabilis</i> (Latin <i>spectabilis</i> = <b>notable/spectacular</b>) + <code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">-mycin</code>.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Plazomicin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-slate">Next-Gen Semisynthetic</span></td>
+        <td class="py-2 px-3">Semisynthetic aminoglycoside derived from sisomicin; prefix selected for international pronounceability.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+---
+layout: default
+class: overflow-y-auto
+---
+
+# Macrolides: Chemical Architecture & Table 6 Decoder
+<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">Macrocyclic lactones, R.B. Woodward, and Table 6 etymology (Beisel et al., Table 6)</div>
+
+<div class="grid grid-cols-2 gap-3 mb-3 text-base">
+  <div class="p-2.5 rounded-xl bg-[#e2e9f0] dark:bg-[#1e252c] m-border-slate">
+    <div class="font-bold text-[#1f3143] dark:text-[#d3e0ec] text-sm mb-1">🧪 Molecular Architecture & R.B. Woodward</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>Etymology & Core:</b> Coined by organic chemist <b>R.B. Woodward</b> (1950s); Greek <i>makros</i> (large) + <i>-lide</i> (lactone). Large 12 to 16-atom lactone ring + sugar molecules.</li>
+      <li><b>Pikromycin (1950s Prototype):</b> First recognized macrolide from <i>Streptomyces venezuelae</i>; named from Greek <i>pikros</i> = <b>bitter taste</b>.</li>
+    </ul>
+  </div>
+
+  <div class="p-2.5 rounded-xl bg-[#e3ece5] dark:bg-[#1e2621] m-border-sage">
+    <div class="font-bold text-[#283a2c] dark:text-[#cde0d2] text-sm mb-1">💊 Azalide Derivation & Clinical Indications</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>Azalide Derivation:</b> <code class="px-1 py-0.2 rounded bg-[#cddccf] text-[#283a2c] font-mono">aza-</code> denotes <b>nitrogen atom replacement</b> inserted into lactone ring + <code class="px-1 py-0.2 rounded bg-[#cddccf] text-[#283a2c] font-mono">-lide</code> (lactone).</li>
+      <li><b>Clinical Role:</b> Essential for respiratory infections, <i>Helicobacter pylori</i>, mycobacterial, and other infections.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="overflow-x-auto text-sm">
+  <table class="w-full text-left">
+    <thead>
+      <tr>
+        <th class="py-2.5 px-3">Agent Name</th>
+        <th class="py-2.5 px-3">Category / Stem</th>
+        <th class="py-2.5 px-3">Etymological & Structural Origin (Beisel et al., Table 6)</th>
+      </tr>
+    </thead>
+    <tbody class="text-[#2d3339] dark:text-[#cbd5e1]">
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Erythromycin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sand">Natural Prototype (-mycin)</span></td>
+        <td class="py-2 px-3">Isolated from soil bacterium <i>Streptomyces erythreus</i> (now <i>Saccharopolyspora erythraea</i>) screened from Philippine soil. <code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">erythro-</code> derived from Greek <i>erythros</i> = <b>"red"</b> (color of producing bacterium) + <code class="px-1 py-0.5 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#453b30] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">-mycin</code> (<i>Streptomyces</i> origin).</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Azithromycin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-sage">15-Membered Azalide</span></td>
+        <td class="py-2 px-3">Semisynthetic derivative of erythromycin A with nitrogen inserted into lactone ring to create a 15-membered azalide. <code class="px-1 py-0.5 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#37453a] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">aza-</code> prefix indicates <b>nitrogen atom</b> added + <code class="px-1 py-0.5 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#37453a] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">-thromycin</code> suffix indicating similarity to erythromycin.</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-bold text-[#31404e] dark:text-[#d3e0ec]">Clarithromycin</td>
+        <td class="py-2 px-3"><span class="px-2 py-0.5 rounded badge-slate">6-O-Methyl Derivative</span></td>
+        <td class="py-2 px-3">Semisynthetic derivative of erythromycin A involving selective 6-O-methylation to enhance acid stability and pharmacokinetics. <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">clar-</code> prefix derived from Latin <i>clarus</i> = <b>"clear"</b> (refined formulation & clearer PK profile vs erythromycin) + <code class="px-1 py-0.5 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#31404e] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">-ithromycin</code> macrolide suffix.</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 ---
@@ -948,9 +1089,4 @@ class: text-center
   *Open Forum Infectious Diseases*, 2026; ofag440.
 </div>
 
----
 
-ssssssaaaaa
-111
-222
-555
