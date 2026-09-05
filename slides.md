@@ -142,6 +142,24 @@ Strict criteria enforced by USAN and WHO INN:
   <div><b>Scope of this Review:</b> Focuses on currently available <b>antibacterials and antifungals</b> (antiviral and antimycobacterial agents are excluded).</div>
 </div>
 
+
+---
+layout: default
+---
+
+<div class="grid grid-cols-10 gap-6 h-full items-center">
+  <div class="col-span-2 flex flex-col justify-center pr-2">
+    <div class="text-xs font-mono font-bold tracking-widest text-[#6e757c] dark:text-[#9ea6ae] uppercase mb-2">Section</div>
+    <h1 class="text-4xl font-extrabold text-[#31404e] dark:text-[#d3e0ec] tracking-tight leading-none">
+      Antibacterial<br><span class="text-3xl font-bold opacity-90">Agents</span>
+    </h1>
+  </div>
+  <div class="col-span-8 flex justify-center items-center">
+    <img src="/antibacterial_agents_bg.jpg" class="rounded-xl border border-[#b5c7d8] dark:border-[#2e3b47] shadow-md object-cover w-full max-h-[440px]" alt="Antibacterial Mechanism & Structure" />
+  </div>
+</div>
+
+
 ---
 layout: default
 class: overflow-y-auto
@@ -1254,154 +1272,362 @@ layout: default
 
 ---
 layout: default
+class: overflow-y-auto
 ---
 
-# The Antifungal Frontier: Polyenes (A Tale of Two Women)
-<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-4 font-normal tracking-wide">Nystatin and Amphotericin B: Ergosterol binding and toxicity</div>
+# Polyenes: Discovery, Chemical Nature &amp; Formulation Evolution
+<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">Macrocyclic lactones with conjugated double bonds ("poly-") (Beisel et al., Section 9)</div>
 
-<div class="grid grid-cols-2 gap-6">
-  <div class="p-4 rounded-xl bg-[#f4e6e6] dark:bg-[#272020] border border-[#dbbcbc] dark:border-[#3f2e2e]">
-    <div class="font-bold text-[#4a3434] dark:text-[#ebd6d6] font-semibold text-base mb-1">Nystatin (1949): Born in Albany, NY</div>
-    <ul class="text-base space-y-2 text-gray-600 dark:text-gray-300">
-      <li>Discovered by two female scientists: microbiologist <b>Elizabeth Hazen</b> and biochemist <b>Rachel Brown</b>.</li>
-      <li>Originally named *"fungicidin"*.</li>
-      <li><b>Etymology:</b> Renamed in honor of their employer:
-        <div class="my-1 font-mono text-center text-base font-bold text-[#4a3434] dark:text-[#ebd6d6] font-semibold">
-          Ny + sta + tin = New York State Department of Health!
-        </div>
-      </li>
-      <li>Hazen and Brown donated all royalties ($13+ million) to establish scientific research grants for women.</li>
+<div class="grid grid-cols-2 gap-3 mb-3 text-base">
+  <div class="p-2.5 rounded-xl bg-[#f4e6e6] dark:bg-[#272020] m-border-rose">
+    <div class="font-bold text-[#3b1d1d] dark:text-[#ebd6d6] text-sm mb-1">🧪 Nystatin: Early Limitations &amp; Toxicity</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>Structure &amp; Origin:</b> Macrolide with conjugated double bonds (<b>"poly-"</b>). Discovered by NY State Dept of Health from <i>S. noursei</i>.</li>
+      <li><b>Oral &amp; Systemic Failure:</b> Inadequate oral absorption → predicted inefficacious for systemic invasive fungal infections.</li>
+      <li><b>Formulation Toxicity:</b> Oral suspensions &amp; IV attempts failed due to vein sclerosing and severe infusion reactions.</li>
     </ul>
   </div>
 
-  <div class="p-4 rounded-xl bg-[#e2e9f0] dark:bg-[#1e252c] border border-[#b5c7d8] dark:border-[#2e3b47]">
-    <div class="font-bold text-[#31404e] dark:text-[#d3e0ec] font-semibold text-base mb-1">Amphotericin B: "Amphoteric" Nature</div>
-    <ul class="text-base space-y-2 text-gray-600 dark:text-gray-300">
-      <li>Isolated in 1953 from soil along the Orinoco River, Venezuela (*Streptomyces nodosus*).</li>
-      <li><b>Etymology:</b> Named for its <b>amphoteric</b> chemical behavior (possessing both acidic carboxyl and basic amino groups).</li>
-      <li><b>"Amphoterrible":</b> Infusion reactions and renal tubular damage. Decades later, Lipid Complex (ABLC) and Liposomal (L-AmB) formulations encapsulated the drug, sparing nephrons while preserving fungicidal potency.</li>
+  <div class="p-2.5 rounded-xl bg-[#e2e9f0] dark:bg-[#1e252c] m-border-slate">
+    <div class="font-bold text-[#1f3143] dark:text-[#d3e0ec] text-sm mb-1">🧫 Amphotericin B (1953): Orinoco Soil &amp; Lipid Rescue</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>Orinoco Screening (Jan 1953):</b> <i>Streptomyces nodosus</i> (M-4575) from Venezuela soil → Amphotericin A &amp; B.</li>
+      <li><b>Tetraene Chromophore:</b> AmB demonstrated superior antifungal activity over AmA → primary clinical focus.</li>
+      <li><b>Deoxycholate Toxicity:</b> Poor oral absorption required IV sodium deoxycholate → high nephrotoxicity &amp; infusion reaction risk.</li>
+      <li><b>Lipid Rescue (FDA 1995/1997):</b> Lipid Complex (ABLC, Nov 1995) &amp; Liposomal (L-AmB, Aug 1997) approved to spare nephrons.</li>
     </ul>
   </div>
 </div>
 
-
-
----
-layout: default
----
-
-# Azoles & Glucan Synthase Inhibitors: Precision Mycology
-<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-4 font-normal tracking-wide">Targeting the fungal cell membrane and wall</div>
-
-<div class="grid grid-cols-2 gap-4 text-base mt-2">
-  <div class="p-3 rounded-lg bg-gray-50 dark:bg-gray-800 m-border-sage">
-    <div class="font-bold text-[#31404e] dark:text-[#d3e0ec] font-semibold text-base">The Azole Family</div>
-    <ul class="mt-1 space-y-1.5 text-gray-600 dark:text-gray-300">
-      <li><b>-conazole</b> suffix standardized after Miconazole.</li>
-      <li><b>Fluconazole:</b> <b>flu-</b> = two fluorine atoms on the benzene ring.</li>
-      <li><b>Voriconazole:</b> <b>vori-</b> = trifluorinated adaptation.</li>
-      <li><b>Isavuconazole:</b> <b>isa-</b> = <b>isomer</b> (features a unique 2,5-difluorophenyl substitution rather than the traditional 2,4-difluorophenyl).</li>
-    </ul>
-  </div>
-
-  <div class="p-3 rounded-lg bg-gray-50 dark:bg-gray-800 m-border-sage">
-    <div class="font-bold text-[#37453a] dark:text-[#cde0d2] font-semibold text-base">Echinocandins & Triterpenoids</div>
-    <ul class="mt-1 space-y-1.5 text-gray-600 dark:text-gray-300">
-      <li><b>Echinocandins:</b> Greek *echin-* = <b>"spiny"</b> or <b>"sea urchin"</b> (*Aspergillus nidulans var. echinulatus* conidiophore morphology).</li>
-      <li><b>Caspofungin:</b> <b>cas-</b> = dual activity against <b>C</b>andida and <b>As</b>pergillus.</li>
-      <li><b>Ibrexafungerp:</b> First-in-class triterpenoid glucan synthase inhibitor. Suffix <b>-erp</b> represents triterpenoids.</li>
-    </ul>
-  </div>
-</div>
-
-<div class="mt-4 p-2.5 rounded bg-[#f4e6e6] dark:bg-[#272020] text-base">
-  <b>Flucytosine (5-FC):</b> Synthesized in 1957 as an antimetabolite for leukemia. Failed as an anticancer drug, but was brilliantly repurposed in the 1960s to treat cryptococcal meningitis.
-</div>
-
-
----
-layout: default
----
-
-# The ICU Clinician’s Etymological Decoder
-<div class="text-gray-400 text-base -mt-2 mb-3">Quick-reference cheat sheet for clinical practice</div>
-
-<div class="overflow-x-auto text-base">
+<div class="overflow-x-auto text-xs">
   <table class="w-full text-left border-collapse">
     <thead>
-      <tr class="border-b border-gray-300 dark:border-gray-700 font-bold text-gray-800 dark:text-gray-200">
-        <th class="py-1 px-2">Word Part</th>
-        <th class="py-1 px-2">Linguistic / Chemical Origin</th>
-        <th class="py-1 px-2">Clinical / Pharmacological Significance</th>
+      <tr class="border-b border-[#c8b9a6] dark:border-[#4a3e30] font-bold text-[#372b1d] dark:text-[#e4d7c8]">
+        <th class="py-1.5 px-2 w-1/5">Polyene Agent</th>
+        <th class="py-1.5 px-2 w-1/4">Microbial Source / Geographic Origin</th>
+        <th class="py-1.5 px-2 w-1/3">Etymological &amp; Chemical Naming (Beisel et al.)</th>
+        <th class="py-1.5 px-2 w-1/4">Clinical &amp; Formulation Significance</th>
       </tr>
     </thead>
-    <tbody class="divide-y divide-gray-200 dark:divide-gray-800 text-gray-600 dark:text-gray-300">
+    <tbody class="divide-y divide-[#dfd2c1] dark:divide-[#383228] text-[#2d3339] dark:text-[#cbd5e1]">
       <tr>
-        <td class="py-1 px-2 font-mono font-bold text-[#31404e] dark:text-[#d3e0ec] font-semibold">Erta-</td>
-        <td class="py-1 px-2">Benzoic & carboxylic acid moiety</td>
-        <td class="py-1 px-2">High albumin binding (>90%) → <b>Once-daily dosing</b></td>
+        <td class="py-1.5 px-2 font-bold text-[#4a3434] dark:text-[#ebd6d6]">Nystatin</td>
+        <td class="py-1.5 px-2"><i>Streptomyces noursei</i></td>
+        <td class="py-1.5 px-2">Originally <i>"fungicidin"</i>. Renamed <code class="px-1 py-0.2 rounded bg-[#f4e6e6] dark:bg-[#272020] text-[#4a3434] dark:text-[#ebd6d6] font-mono border border-[#dbbcbc] dark:border-[#3f2e2e]">ny-</code> (New York) + <code class="px-1 py-0.2 rounded bg-[#f4e6e6] dark:bg-[#272020] text-[#4a3434] dark:text-[#ebd6d6] font-mono border border-[#dbbcbc] dark:border-[#3f2e2e]">-sta-</code> (State) + <code class="px-1 py-0.2 rounded bg-[#f4e6e6] dark:bg-[#272020] text-[#4a3434] dark:text-[#ebd6d6] font-mono border border-[#dbbcbc] dark:border-[#3f2e2e]">-tin</code> (<i>Streptomyces</i>).</td>
+        <td class="py-1.5 px-2">Broad spectrum; systemic toxicity limits use to topical &amp; oral mucosal candidiasis.</td>
       </tr>
       <tr>
-        <td class="py-1 px-2 font-mono font-bold text-[#37453a] dark:text-[#cde0d2] font-semibold">Levo-</td>
-        <td class="py-1 px-2">L-isomer (levorotatory) of ofloxacin</td>
-        <td class="py-1 px-2">Double antibacterial potency, halved dose & reduced CNS toxicity</td>
+        <td class="py-1.5 px-2 font-bold text-[#1f3143] dark:text-[#d3e0ec]">Amphotericin B</td>
+        <td class="py-1.5 px-2"><i>Streptomyces nodosus</i> (M-4575, Orinoco River, Venezuela)</td>
+        <td class="py-1.5 px-2">Named for <b>amphoteric</b> nature (possesses carboxyl &amp; primary amino group on mycosamine ring).</td>
+        <td class="py-1.5 px-2">Broad-spectrum systemic gold standard; IV deoxycholate vs lipid forms (ABLC/L-AmB) to reduce nephrotoxicity.</td>
       </tr>
       <tr>
-        <td class="py-1 px-2 font-mono font-bold text-[#4a3434] dark:text-[#ebd6d6] font-semibold">Piper-</td>
-        <td class="py-1 px-2">Piperazine heterocyclic ring</td>
-        <td class="py-1 px-2">Facilitates outer membrane crossing in <b>Pseudomonas aeruginosa</b></td>
-      </tr>
-      <tr>
-        <td class="py-1 px-2 font-mono font-bold text-[#4a3434] dark:text-[#ebd6d6] font-semibold">-vancin</td>
-        <td class="py-1 px-2">From "Vanquish" (Vancomycin derivative)</td>
-        <td class="py-1 px-2">Lipoglycopeptides (Dalba-, Orita-, Tela-) with ultralong half-lives</td>
-      </tr>
-      <tr>
-        <td class="py-1 px-2 font-mono font-bold text-[#453b30] dark:text-[#e4d7c8] font-semibold">-mycin vs -micin</td>
-        <td class="py-1 px-2">*Streptomyces* (y) vs. *Micromonospora* (i)</td>
-        <td class="py-1 px-2">Distinguishes actinomycete bacterial origin</td>
-      </tr>
-      <tr>
-        <td class="py-1 px-2 font-mono font-bold text-[#31404e] dark:text-[#d3e0ec] font-semibold">Az- / Aza-</td>
-        <td class="py-1 px-2">Azetidinone ring / Nitrogen atom</td>
-        <td class="py-1 px-2">Monocyclic ring (Aztreonam) or azalide macrolide (Azithromycin)</td>
+        <td class="py-1.5 px-2 font-bold text-[#283a2c] dark:text-[#cde0d2]">Natamycin</td>
+        <td class="py-1.5 px-2"><i>Streptomyces natalensis</i> (Natal, South Africa)</td>
+        <td class="py-1.5 px-2">Isolated from Natal soil; suffix <code class="px-1 py-0.2 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#283a2c] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">-mycin</code> for <i>Streptomyces</i> species.</td>
+        <td class="py-1.5 px-2">Natural fermentation product; primary topical ophthalmic antifungal for fungal keratitis.</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-<div class="mt-3 p-2 bg-gray-100 dark:bg-gray-800 rounded text-center text-base font-mono text-gray-600 dark:text-gray-300">
-  When you know the roots, you know the drug's anatomy and physiology.
+
+
+---
+layout: default
+class: overflow-y-auto
+---
+
+# Azoles: Chemical Evolution, Ring Architecture &amp; Etymology
+<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">From topical imidazoles to mold-active triazoles &amp; low-toxicity tetrazoles (Beisel et al., Section 9)</div>
+
+<div class="grid grid-cols-2 gap-3 mb-3 text-base">
+  <div class="p-2.5 rounded-xl bg-[#e3ece5] dark:bg-[#1e2621] m-border-sage">
+    <div class="font-bold text-[#283a2c] dark:text-[#cde0d2] text-sm mb-1">🧪 Azole Class Evolution: Overcoming Polyenes</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>Rationale:</b> Developed after polyenes to reduce infusion reactions &amp; dose-dependent nephrotoxicity of Amphotericin B.</li>
+      <li><b>Benzimidazole Foundation &amp; Topical Era:</b> Pioneered by benzimidazole; first marketed topicals were <b>Clotrimazole</b> (1969), <b>Miconazole</b> (1969), and <b>Econazole</b> (1974).</li>
+      <li><b>Triazoles vs Molds:</b> Later triazoles (Voriconazole, Posaconazole, Isavuconazole) expanded coverage to molds (<i>Aspergillus</i>).</li>
+    </ul>
+  </div>
+
+  <div class="p-2.5 rounded-xl bg-[#e2e9f0] dark:bg-[#1e252c] m-border-slate">
+    <div class="font-bold text-[#1f3143] dark:text-[#d3e0ec] text-sm mb-1">🧬 Nitrogen Ring Architecture &amp; Suffix System</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>Class Suffix "-azole":</b> Refers to imidazole or triazole (3 nitrogens [<b>"tri-"</b>] in 5-membered ring) structural backbone.</li>
+      <li><b>Stem "-conazole":</b> Originated from Miconazole naming convention and perpetuated across the class.</li>
+      <li><b>Novel Tetrazoles (Oteseconazole):</b> Engineered with 4 nitrogens (<b>"tetra-"</b>) + 1 carbon atom to decrease host toxicity.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="overflow-x-auto text-xs">
+  <table class="w-full text-left border-collapse">
+    <thead>
+      <tr class="border-b border-[#c8b9a6] dark:border-[#4a3e30] font-bold text-[#372b1d] dark:text-[#e4d7c8]">
+        <th class="py-1 px-2 w-1/6">Azole Agent</th>
+        <th class="py-1 px-2 w-1/6">Ring Sub-Class</th>
+        <th class="py-1 px-2 w-5/12">Etymological &amp; Chemical Naming Rationale (Beisel et al.)</th>
+        <th class="py-1 px-2 w-1/4">Clinical / Chemical Significance</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-[#dfd2c1] dark:divide-[#383228] text-[#2d3339] dark:text-[#cbd5e1]">
+      <tr>
+        <td class="py-1 px-2 font-bold text-[#283a2c] dark:text-[#cde0d2]">Clotrimazole</td>
+        <td class="py-1 px-2">1st Gen Imidazole</td>
+        <td class="py-1 px-2"><code class="px-1 py-0.2 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#283a2c] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">clo-</code> = <b>chlorophenyl</b> group + <code class="px-1 py-0.2 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#283a2c] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">-im-</code> = imidazole moiety.</td>
+        <td class="py-1 px-2">First marketed topical product (1969).</td>
+      </tr>
+      <tr>
+        <td class="py-1 px-2 font-bold text-[#283a2c] dark:text-[#cde0d2]">Miconazole</td>
+        <td class="py-1 px-2">1st Gen Imidazole</td>
+        <td class="py-1 px-2"><code class="px-1 py-0.2 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#283a2c] dark:text-[#cde0d2] font-mono">mico-</code> = mycology (Greek <i>mykes</i> [fungus]) + <code class="px-1 py-0.2 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#283a2c] dark:text-[#cde0d2] font-mono">-azole</code> = imidazole.</td>
+        <td class="py-1 px-2">Established the standardized <code class="px-1 py-0.2 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#283a2c] dark:text-[#cde0d2] font-mono">-conazole</code> stem.</td>
+      </tr>
+      <tr>
+        <td class="py-1 px-2 font-bold text-[#283a2c] dark:text-[#cde0d2]">Ketoconazole</td>
+        <td class="py-1 px-2">Systemic Imidazole</td>
+        <td class="py-1 px-2"><code class="px-1 py-0.2 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#283a2c] dark:text-[#cde0d2] font-mono">keto-</code> = <b>ketone</b> functional group + <code class="px-1 py-0.2 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#283a2c] dark:text-[#cde0d2] font-mono">-con-</code> (Latin "with/together") + <code class="px-1 py-0.2 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#283a2c] dark:text-[#cde0d2] font-mono">-azole</code>.</td>
+        <td class="py-1 px-2">Early oral systemic imidazole prototype.</td>
+      </tr>
+      <tr>
+        <td class="py-1 px-2 font-bold text-[#1f3143] dark:text-[#d3e0ec]">Fluconazole</td>
+        <td class="py-1 px-2">2nd Gen Triazole</td>
+        <td class="py-1 px-2"><code class="px-1 py-0.2 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#1f3143] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">flu-</code> = <b>fluorinated</b> structure + <code class="px-1 py-0.2 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#1f3143] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">-con-</code> (Latin "with/together") + <code class="px-1 py-0.2 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#1f3143] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">-azole</code>.</td>
+        <td class="py-1 px-2">Hydrophilic triazole; workhorse for <i>Candida</i>.</td>
+      </tr>
+      <tr>
+        <td class="py-1 px-2 font-bold text-[#1f3143] dark:text-[#d3e0ec]">Itraconazole</td>
+        <td class="py-1 px-2">2nd Gen Triazole</td>
+        <td class="py-1 px-2"><code class="px-1 py-0.2 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#1f3143] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">itra-</code> = speculated variation of <b>"tri-"</b> (for triazole ring).</td>
+        <td class="py-1 px-2">Lipophilic triazole with broader dimorphic activity.</td>
+      </tr>
+      <tr>
+        <td class="py-1 px-2 font-bold text-[#1f3143] dark:text-[#d3e0ec]">Voriconazole</td>
+        <td class="py-1 px-2">2nd Gen Triazole</td>
+        <td class="py-1 px-2"><code class="px-1 py-0.2 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#1f3143] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">vori-</code> = adaptation of <b>"fluori-"</b> (reflects unique <b>trifluorinated</b> structure).</td>
+        <td class="py-1 px-2">First-line therapy for invasive <i>Aspergillus</i>.</td>
+      </tr>
+      <tr>
+        <td class="py-1 px-2 font-bold text-[#1f3143] dark:text-[#d3e0ec]">Posaconazole</td>
+        <td class="py-1 px-2">Extended Triazole</td>
+        <td class="py-1 px-2"><code class="px-1 py-0.2 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#1f3143] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">posa-</code> = unknown origin; coined for pronounceability &amp; class distinction.</td>
+        <td class="py-1 px-2">Extended-spectrum triazole active vs. Mucorales.</td>
+      </tr>
+      <tr>
+        <td class="py-1 px-2 font-bold text-[#1f3143] dark:text-[#d3e0ec]">Isavuconazole</td>
+        <td class="py-1 px-2">Extended Triazole</td>
+        <td class="py-1 px-2"><code class="px-1 py-0.2 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#1f3143] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">isa-</code> = shorthand for <b>ISOMER</b> (features 2,5-difluorophenyl vs traditional 2,4-difluorophenyl).</td>
+        <td class="py-1 px-2">Water-soluble prodrug (Isavuconazonium) for <i>Aspergillus</i> &amp; Mucorales.</td>
+      </tr>
+      <tr>
+        <td class="py-1 px-2 font-bold text-[#3b1d1d] dark:text-[#ebd6d6]">Oteseconazole</td>
+        <td class="py-1 px-2">Novel Tetrazole</td>
+        <td class="py-1 px-2"><code class="px-1 py-0.2 rounded bg-[#f4e6e6] dark:bg-[#272020] text-[#3b1d1d] dark:text-[#ebd6d6] font-mono border border-[#dbbcbc] dark:border-[#3f2e2e]">otese-</code> = unknown origin; suffix modified for <b>tetrazole</b> (4 nitrogens + 1 carbon).</td>
+        <td class="py-1 px-2">Targeted CYP51 selectivity with reduced off-target human toxicity.</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 
 ---
 layout: default
+class: overflow-y-auto
 ---
 
-# Conclusion & The Future of Antimicrobials
-<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-4 font-normal tracking-wide">Lessons from 80 years of antimicrobial discovery</div>
+# Glucan Synthase Inhibitors: Echinocandins &amp; Triterpenoids
+<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">Targeting 1,3-β-D-glucan synthesis in the fungal cell wall (Beisel et al., Section 9)</div>
 
-<div class="space-y-3 text-base">
-  <div class="p-3 rounded-lg bg-[#e2e9f0] dark:bg-[#1e252c] m-border-sage">
-    <div class="font-bold text-[#31404e] dark:text-[#d3e0ec] font-semibold text-base">Every Name Is an Archive</div>
-    <p class="text-gray-600 dark:text-gray-300 mt-1">
-      Antimicrobial names commemorate wartime desperation, geographic locations from Borneo to Nebraska, laboratory secrecy (*Penicillin V*), and pure serendipity (*Metronidazole, Rifampin*).
-    </p>
+<div class="grid grid-cols-2 gap-3 mb-3 text-base">
+  <div class="p-2.5 rounded-xl bg-[#e3ece5] dark:bg-[#1e2621] m-border-sage">
+    <div class="font-bold text-[#283a2c] dark:text-[#cde0d2] text-sm mb-1">🧫 Echinocandins: Spiny Molds to Cell Wall Blockers</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>1970s Fermentation Discovery:</b> Echinocandin B isolated from <i>Aspergillus nidulans var. echinulatus</i>. Greek <i>"echin-"</i> = <b>spiny/prickly</b> (echinate conidiophores).</li>
+      <li><b>Overcoming Toxicity:</b> Early compounds caused severe hemolysis. Semisynthetic derivatives produced <b>Cilofungin</b> (first clinical trial) and <b>Pneumocandins</b> (<i>Zalerion arboricola</i>).</li>
+      <li><b>1990s Optimization:</b> Chemical tuning improved PK &amp; solubility, yielding <b>Micafungin</b> (precursors from <i>Coleophoma empetria</i>) with potent anti-<i>Candida</i> activity.</li>
+    </ul>
   </div>
 
-  <div class="p-3 rounded-lg bg-[#e3ece5] dark:bg-[#1e2621] m-border-sage">
-    <div class="font-bold text-[#37453a] dark:text-[#cde0d2] font-semibold text-base">The Paradigm Shift in Drug Discovery</div>
-    <p class="text-gray-600 dark:text-gray-300 mt-1">
-      From classical <b>soil screening & serendipity</b> → to <b>chemical derivatization</b> → to modern <b>rational molecular modeling, CRISPR, and multi-omics</b>.
-    </p>
+  <div class="p-2.5 rounded-xl bg-[#f2ebdf] dark:bg-[#26231e] m-border-sand">
+    <div class="font-bold text-[#372b1d] dark:text-[#e4d7c8] text-sm mb-1">🍄 Triterpenoids: Enfumafungin to Ibrexafungerp</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>Enfumafungin Landmark (2000):</b> Natural triterpene isolated from endophytic fungus <i>Hormonema carpetanum</i> via HTS.</li>
+      <li><b>Enfumafungin Breakdown:</b> <code class="px-1 py-0.2 rounded bg-[#e5d7c3] dark:bg-[#372b1d] text-[#372b1d] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">en-</code> (<b>en</b>dophytic) + <code class="px-1 py-0.2 rounded bg-[#e5d7c3] dark:bg-[#372b1d] text-[#372b1d] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">-fuma-</code> (<i>A. **fuma**gatus</i>) + <code class="px-1 py-0.2 rounded bg-[#e5d7c3] dark:bg-[#372b1d] text-[#372b1d] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">-fungin</code>.</li>
+      <li><b>Ibrexafungerp Evolution:</b> Poor <i>in vivo</i> stability of enfumafungin led to semisynthetic <b>Ibrexafungerp</b> (first-in-class triterpenoid).</li>
+      <li><b>Suffix "-erp":</b> <code class="px-1 py-0.2 rounded bg-[#e5d7c3] dark:bg-[#372b1d] text-[#372b1d] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">fung-</code> = echinocandin-like spectrum; <code class="px-1 py-0.2 rounded bg-[#e5d7c3] dark:bg-[#372b1d] text-[#372b1d] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">-erp</code> = unique stem for <b>triterpenoids</b>.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="overflow-x-auto text-xs">
+  <table class="w-full text-left border-collapse">
+    <thead>
+      <tr class="border-b border-[#c8b9a6] dark:border-[#4a3e30] font-bold text-[#372b1d] dark:text-[#e4d7c8]">
+        <th class="py-1.5 px-2 w-1/5">Agent</th>
+        <th class="py-1.5 px-2 w-1/4">Microbial Source / Derivative Origin</th>
+        <th class="py-1.5 px-2 w-1/3">Etymological &amp; Chemical Naming (Beisel et al.)</th>
+        <th class="py-1.5 px-2 w-1/4">Clinical &amp; Structural Significance</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-[#dfd2c1] dark:divide-[#383228] text-[#2d3339] dark:text-[#cbd5e1]">
+      <tr>
+        <td class="py-1.5 px-2 font-bold text-[#283a2c] dark:text-[#cde0d2]">Caspofungin</td>
+        <td class="py-1.5 px-2">Semisynthetic from Pneumocandin B0 (<i>Zalerion arboricola</i>)</td>
+        <td class="py-1.5 px-2"><code class="px-1 py-0.2 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#283a2c] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">cas-</code> = dual activity vs. <b>C</b>andida &amp; <b>As</b>pergillus spp.; <code class="px-1 py-0.2 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#283a2c] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">-fungin</code> = echinocandin stem.</td>
+        <td class="py-1.5 px-2">First FDA-approved echinocandin (2001).</td>
+      </tr>
+      <tr>
+        <td class="py-1.5 px-2 font-bold text-[#1f3143] dark:text-[#d3e0ec]">Micafungin</td>
+        <td class="py-1.5 px-2">Precursors from <i>Coleophoma empetria</i> (1990)</td>
+        <td class="py-1.5 px-2"><code class="px-1 py-0.2 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#1f3143] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">mica-</code> = adaptation of <code class="px-1 py-0.2 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#1f3143] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">myco-</code> (Greek <i>mykes</i> [fungus / mushroom]).</td>
+        <td class="py-1.5 px-2">Water-soluble echinocandin with minimal hemolysis risk.</td>
+      </tr>
+      <tr>
+        <td class="py-1.5 px-2 font-bold text-[#283a2c] dark:text-[#cde0d2]">Anidulafungin</td>
+        <td class="py-1.5 px-2">Echinocandin B derivative (<i>Aspergillus nidulans</i>, 1974)</td>
+        <td class="py-1.5 px-2">Name derived directly from source organism <i>Aspergillus <b>nidula</b>ns</i> (<b>ani-dula-fungin</b>).</td>
+        <td class="py-1.5 px-2">Undergoes slow chemical degradation without hepatic metabolism.</td>
+      </tr>
+      <tr>
+        <td class="py-1.5 px-2 font-bold text-[#1f3143] dark:text-[#d3e0ec]">Rezafungin</td>
+        <td class="py-1.5 px-2">Structural analogue of Anidulafungin (C5 choline amine ether)</td>
+        <td class="py-1.5 px-2"><code class="px-1 py-0.2 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#1f3143] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">reza-</code> = coined for pronounceability &amp; distinction among echinocandins.</td>
+        <td class="py-1.5 px-2">Enhanced chemical stability allowing <b>once-weekly IV dosing</b>.</td>
+      </tr>
+      <tr>
+        <td class="py-1.5 px-2 font-bold text-[#372b1d] dark:text-[#e4d7c8]">Ibrexafungerp</td>
+        <td class="py-1.5 px-2">Semisynthetic triterpene from Enfumafungin (<i>Hormonema carpetanum</i>)</td>
+        <td class="py-1.5 px-2"><code class="px-1 py-0.2 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#372b1d] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">fung-</code> = echinocandin-like spectrum + <code class="px-1 py-0.2 rounded bg-[#f2ebdf] dark:bg-[#26231e] text-[#372b1d] dark:text-[#e4d7c8] font-mono border border-[#d4c4af] dark:border-[#3d342a]">-erp</code> = unique stem for <b>triterpenoids</b>.</td>
+        <td class="py-1.5 px-2">First-in-class oral glucan synthase inhibitor for vulvovaginal candidiasis.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+---
+layout: default
+class: overflow-y-auto
+---
+
+# Other Antifungals: Repurposed Drugs, Allylamines &amp; Chemical Diversity
+<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">Pyrimidines, allylamines, oxaboroles, hydroxypyridones, and fatty acids (Beisel et al., Section 10)</div>
+
+<div class="grid grid-cols-2 gap-3 mb-3 text-base">
+  <div class="p-2.5 rounded-xl bg-[#f4e6e6] dark:bg-[#272020] m-border-rose">
+    <div class="font-bold text-[#3b1d1d] dark:text-[#ebd6d6] text-sm mb-1">🧪 Repurposed Pyrimidines &amp; Penicillium Derivatives</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>Flucytosine Repurposing (1957 → 1960s):</b> Fluorinated cytosine synthesized in 1957 as an anticancer antimetabolite. Weak antineoplastic efficacy led to 1960s repurposing for systemic mycoses (cryptococcal meningitis).</li>
+      <li><b>Griseofulvin Color Origin:</b> Isolated from <i>Penicillium griseofulvum</i>. Latin <i>griseus</i> (<b>gray</b>) + <i>fulvus</i> (<b>tawny</b>) describing the gray-tawny pigment of the producing mold.</li>
+    </ul>
   </div>
 
-  <div class="p-3 rounded-lg bg-[#f4e6e6] dark:bg-[#272020] m-border-sage">
-    <div class="font-bold text-[#4a3434] dark:text-[#ebd6d6] font-semibold text-base">The Never-Ending Arms Race</div>
-    <p class="text-gray-600 dark:text-gray-300 mt-1">
-      As ICU clinicians facing rising pan-drug resistance (MDR/PDR), antimicrobial stewardship and rational drug design remain our strongest weapons in this eternal evolutionary war.
-    </p>
+  <div class="p-2.5 rounded-xl bg-[#e2e9f0] dark:bg-[#1e252c] m-border-slate">
+    <div class="font-bold text-[#1f3143] dark:text-[#d3e0ec] text-sm mb-1">🧬 Allylamines &amp; Diverse Chemical Classes</div>
+    <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
+      <li><b>Allylamine Serendipity (Sandoz, Vienna):</b> Discovered in 1970s–1980s via serendipity + medicinal chemistry. Named for <b>allyl group</b> (CH₂=CH-CH₂-) bound to an <b>amine</b> (nitrogen).</li>
+      <li><b>Synthetic Diversity:</b> Encompasses Naphthalene cores (<b>Naftifine</b>, <b>Terbinafine</b>), Benzylamines (<b>Butenafine</b>), Oxaboroles (<b>Tavaborole</b>), Hydroxypyridones (<b>Ciclopirox</b>), and Castor oil derivatives (<b>Undecylenic acid</b>).</li>
+    </ul>
+  </div>
+</div>
+
+<div class="overflow-x-auto text-xs">
+  <table class="w-full text-left border-collapse">
+    <thead>
+      <tr class="border-b border-[#c8b9a6] dark:border-[#4a3e30] font-bold text-[#372b1d] dark:text-[#e4d7c8]">
+        <th class="py-1 px-2 w-1/6">Antifungal Agent</th>
+        <th class="py-1 px-2 w-1/6">Chemical Sub-Class</th>
+        <th class="py-1 px-2 w-5/12">Etymological &amp; Chemical Naming Rationale (Beisel et al.)</th>
+        <th class="py-1 px-2 w-1/4">Clinical / Biological Significance</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-[#dfd2c1] dark:divide-[#383228] text-[#2d3339] dark:text-[#cbd5e1]">
+      <tr>
+        <td class="py-1 px-2 font-bold text-[#4a3434] dark:text-[#ebd6d6]">Flucytosine</td>
+        <td class="py-1 px-2">Fluorinated Pyrimidine</td>
+        <td class="py-1 px-2">Fluorinated analogue of <b>cytosine</b>. Designed as anticancer antimetabolite (1957), repurposed as antifungal.</td>
+        <td class="py-1 px-2">Synergistic oral agent for cryptococcal meningitis.</td>
+      </tr>
+      <tr>
+        <td class="py-1 px-2 font-bold text-[#372b1d] dark:text-[#e4d7c8]">Griseofulvin</td>
+        <td class="py-1 px-2">Penicillium Derivative</td>
+        <td class="py-1 px-2">Derived directly from <i>Penicillium griseofulvum</i>. Latin <i>griseus</i> (<b>gray</b>) + <i>fulvus</i> (<b>tawny</b>).</td>
+        <td class="py-1 px-2">Early oral agent for dermatophytosis &amp; tinea capitis.</td>
+      </tr>
+      <tr>
+        <td class="py-1 px-2 font-bold text-[#1f3143] dark:text-[#d3e0ec]">Naftifine</td>
+        <td class="py-1 px-2">Allylamine Prototype</td>
+        <td class="py-1 px-2"><code class="px-1 py-0.2 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#1f3143] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">nafti-</code> = <b>naphthalene</b> core + <code class="px-1 py-0.2 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#1f3143] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">-fine</code> = allylamine derivative.</td>
+        <td class="py-1 px-2">Topical squalene epoxidase inhibitor (Sandoz, Vienna).</td>
+      </tr>
+      <tr>
+        <td class="py-1 px-2 font-bold text-[#1f3143] dark:text-[#d3e0ec]">Terbinafine</td>
+        <td class="py-1 px-2">Optimized Allylamine</td>
+        <td class="py-1 px-2">Optimization of naftifine: <code class="px-1 py-0.2 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#1f3143] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">ter-</code> = <b>tert-butylacetylene</b> side chain + <code class="px-1 py-0.2 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#1f3143] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">-fine</code> = allylamine.</td>
+        <td class="py-1 px-2">Workhorse oral/topical agent for onychomycosis.</td>
+      </tr>
+      <tr>
+        <td class="py-1 px-2 font-bold text-[#1f3143] dark:text-[#d3e0ec]">Butenafine</td>
+        <td class="py-1 px-2">Benzylamine Derivative</td>
+        <td class="py-1 px-2"><code class="px-1 py-0.2 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#1f3143] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">buten-</code> = <b>butyl group</b> &amp; <b>butene (alkene)</b> linker + <code class="px-1 py-0.2 rounded bg-[#e2e9f0] dark:bg-[#1e252c] text-[#1f3143] dark:text-[#d3e0ec] font-mono border border-[#b5c7d8] dark:border-[#2e3b47]">-afine</code> = allylamine cousin.</td>
+        <td class="py-1 px-2">Topical agent for tinea pedis/cruris/corporis.</td>
+      </tr>
+      <tr>
+        <td class="py-1 px-2 font-bold text-[#283a2c] dark:text-[#cde0d2]">Tolnaftate</td>
+        <td class="py-1 px-2">Thiocarbamate</td>
+        <td class="py-1 px-2"><code class="px-1 py-0.2 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#283a2c] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">tol-</code> = <b>toluene / methylphenyl</b> group + <code class="px-1 py-0.2 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#283a2c] dark:text-[#cde0d2] font-mono border border-[#b8ccbb] dark:border-[#2d3a30]">-naftate</code> = <b>naphthyl</b> group.</td>
+        <td class="py-1 px-2">Over-the-counter topical antifungal.</td>
+      </tr>
+      <tr>
+        <td class="py-1 px-2 font-bold text-[#283a2c] dark:text-[#cde0d2]">Tavaborole</td>
+        <td class="py-1 px-2">Oxaborole Inhibitor</td>
+        <td class="py-1 px-2"><code class="px-1 py-0.2 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#283a2c] dark:text-[#cde0d2] font-mono">tava-</code> = coined prefix + <code class="px-1 py-0.2 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#283a2c] dark:text-[#cde0d2] font-mono">-borole</code> = <b>oxaborole</b> ring (boron-containing tRNA synthetase inhibitor).</td>
+        <td class="py-1 px-2">Topical solution for toenail onychomycosis.</td>
+      </tr>
+      <tr>
+        <td class="py-1 px-2 font-bold text-[#283a2c] dark:text-[#cde0d2]">Ciclopirox</td>
+        <td class="py-1 px-2">Hydroxypyridone</td>
+        <td class="py-1 px-2"><code class="px-1 py-0.2 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#283a2c] dark:text-[#cde0d2] font-mono">ciclo-</code> = <b>cyclohexyl</b> + <code class="px-1 py-0.2 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#283a2c] dark:text-[#cde0d2] font-mono">-pir-</code> = <b>pyridine</b> ring + <code class="px-1 py-0.2 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#283a2c] dark:text-[#cde0d2] font-mono">-ox</code> = <b>hydroxy</b> group.</td>
+        <td class="py-1 px-2">Chelates trivalent cations (Fe³⁺/Al³⁺); topical lacquer.</td>
+      </tr>
+      <tr>
+        <td class="py-1 px-2 font-bold text-[#283a2c] dark:text-[#cde0d2]">Undecylenic acid</td>
+        <td class="py-1 px-2">Unsaturated Fatty Acid</td>
+        <td class="py-1 px-2"><code class="px-1 py-0.2 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#283a2c] dark:text-[#cde0d2] font-mono">undec-</code> = Latin <i>undecim</i> (<b>11 carbons</b>) + <code class="px-1 py-0.2 rounded bg-[#e3ece5] dark:bg-[#1e2621] text-[#283a2c] dark:text-[#cde0d2] font-mono">-enic</code> = double bond (alkene).</td>
+        <td class="py-1 px-2">Castor oil derivative for superficial fungal infections.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+---
+layout: default
+class: text-center
+---
+
+<div class="h-full flex flex-col justify-between py-2">
+  <!-- Top: Title & Subtitle -->
+  <div>
+    <h1 class="text-3xl font-extrabold text-[#31404e] dark:text-[#d3e0ec]">Epilogue: The Power of Antimicrobial Nomenclature</h1>
+    <div class="text-[#6e757c] dark:text-[#9ea6ae] text-base mt-1 font-normal tracking-wide">
+      Connecting 80 years of drug discovery history with modern ICU antimicrobial stewardship
+    </div>
+  </div>
+
+  <!-- Center: Core Academic Thesis Banner -->
+  <div class="p-6 rounded-2xl bg-[#e2e9f0] dark:bg-[#1e252c] m-border-slate my-auto shadow-sm">
+    <div class="text-xs font-mono font-bold tracking-widest text-[#6e757c] dark:text-[#9ea6ae] uppercase mb-2">Core Thesis</div>
+    <div class="text-xl font-serif italic text-[#1f3143] dark:text-[#d3e0ec] leading-relaxed px-4">
+      "Antimicrobial nomenclature is an evolutionary roadmap. Etymological roots transform drug names from arbitrary labels into immediate clinical insights on structure, spectrum, and pharmacokinetics."
+    </div>
+  </div>
+
+  <!-- Bottom: Academic Reference Footer -->
+  <div class="p-3 rounded-xl bg-gray-100 dark:bg-gray-800/60 text-center text-xs font-mono text-gray-500 dark:text-gray-400 border border-gray-200 dark:border-gray-700/50">
+    Reference: Beisel C, et al. <i>What’s in a Name? Etymology and History of Antibacterials and Antifungals.</i> Open Forum Infect Dis, 2026.
   </div>
 </div>
 
