@@ -187,7 +187,6 @@ class: overflow-y-auto
 <div class="font-bold text-[#372b1d] dark:text-[#e4d7c8] font-semibold text-base mb-1">⚙️ WWII Production Miracle</div>
 
 - **Corn Steep Liquor & Beer Fermentation:** Peoria, IL byproduct + deep-tank beer fermentation multiplied yield for Allied D-Day troops (1944).
-- **German Espionage Decoy:** Institut Pasteur intentionally supplied German officers a decoy strain producing zero penicillin.
 </div>
 
 </div>
@@ -209,12 +208,13 @@ class: overflow-y-auto
 
 </div>
 </div>
+
 ---
 layout: default
 class: overflow-y-auto
 ---
 
-# Penicillin Class Architecture: USAN Table 1 Decoder
+# Penicillin Class 
 <div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-4 font-normal tracking-wide">Etymology and chemical derivations of major penicillin analogs (Beisel et al., Table 1)</div>
 
 <div class="overflow-x-auto text-sm">
@@ -223,7 +223,7 @@ class: overflow-y-auto
       <tr>
         <th class="py-2.5 px-3">Penicillin Analog</th>
         <th class="py-2.5 px-3">Sub-Class / Group</th>
-        <th class="py-2.5 px-3">Etymological & Chemical Origin (Beisel et al., Table 1)</th>
+        <th class="py-2.5 px-3">Etymological & Chemical Origin </th>
         <th class="py-2.5 px-3">Pharmacological & Clinical Significance</th>
       </tr>
     </thead>
@@ -291,7 +291,7 @@ layout: default
 class: overflow-y-auto
 ---
 
-# Outsmarting Bacterial Defense: β-Lactamase Inhibitors
+# β-Lactamase Inhibitors
 <div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">Evolution and etymology of "-bactams" (Beisel et al., Table 2)</div>
 
 <div class="grid grid-cols-2 gap-3 mb-3 text-base">
@@ -318,7 +318,7 @@ class: overflow-y-auto
       <tr>
         <th class="py-2.5 px-3">Inhibitor Name</th>
         <th class="py-2.5 px-3">Category / Stem</th>
-        <th class="py-2.5 px-3">Etymological & Chemical Origin (Beisel et al., Table 2)</th>
+        <th class="py-2.5 px-3">Etymological & Chemical Origin </th>
       </tr>
     </thead>
     <tbody class="text-[#2d3339] dark:text-[#cbd5e1]">
@@ -367,7 +367,7 @@ class: overflow-y-auto
 ---
 
 # Cephalosporins: Discovery, History & Structural Evolution
-<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">From Sardinian sewage outfalls to broad-spectrum β-lactam therapy (Beisel et al., Section 4)</div>
+<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">From Sardinian sewage outfalls to broad-spectrum β-lactam therapy </div>
 
 <div class="grid grid-cols-2 gap-3 mb-3 text-base">
   <div class="p-2.5 rounded-xl bg-[#f2ebdf] dark:bg-[#26231e] m-border-sand">
@@ -410,7 +410,7 @@ layout: default
 class: overflow-y-auto
 ---
 
-# Cephalosporin Architecture: USAN Table 3 Decoder
+# Cephalosporin
 <div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">Etymology and chemical derivations of major cephalosporin analogs (Beisel et al., Table 3)</div>
 
 <div class="overflow-x-auto text-sm">
@@ -419,7 +419,7 @@ class: overflow-y-auto
       <tr>
         <th class="py-2.5 px-3">Agent Name</th>
         <th class="py-2.5 px-3">Sub-Class / Generation</th>
-        <th class="py-2.5 px-3">Etymological & Chemical Origin (Beisel et al., Table 3)</th>
+        <th class="py-2.5 px-3">Etymological & Chemical Origin </th>
       </tr>
     </thead>
     <tbody class="text-[#2d3339] dark:text-[#cbd5e1]">
@@ -532,7 +532,7 @@ layout: default
 class: overflow-y-auto
 ---
 
-# Carbapenems & Monobactams: Architecture & Table 4 Decoder
+# Carbapenems & Monobactams
 <div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">From fragile Thienamycin to DHP-1 stable lifesavers and monocyclic β-lactams (Beisel et al., Table 4)</div>
 
 <div class="grid grid-cols-2 gap-3 mb-2.5 text-base">
@@ -577,7 +577,7 @@ class: overflow-y-auto
       <tr>
         <th class="py-2.5 px-3">Agent Name</th>
         <th class="py-2.5 px-3">Category / Class</th>
-        <th class="py-2.5 px-3">Etymological & Structural Origin (Beisel et al., Table 4)</th>
+        <th class="py-2.5 px-3">Etymological & Structural Origin</th>
       </tr>
     </thead>
     <tbody class="text-[#2d3339] dark:text-[#cbd5e1]">
@@ -620,7 +620,7 @@ layout: default
 class: overflow-y-auto
 ---
 
-# Aminoglycosides: Soil Actinomycetes & Table 5 Decoder
+# Aminoglycosides
 <div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">Historical discovery, the Nobel controversy, and the "-mycin" vs "-micin" rule (Beisel et al., Table 5)</div>
 
 <div class="grid grid-cols-2 gap-3 mb-3 text-base">
@@ -648,7 +648,7 @@ class: overflow-y-auto
       <tr>
         <th class="py-2.5 px-3">Agent Name</th>
         <th class="py-2.5 px-3">Category / Class</th>
-        <th class="py-2.5 px-3">Etymological & Microbial Origin (Beisel et al., Table 5)</th>
+        <th class="py-2.5 px-3">Etymological & Microbial Origin </th>
       </tr>
     </thead>
     <tbody class="text-[#2d3339] dark:text-[#cbd5e1]">
@@ -711,7 +711,7 @@ layout: default
 class: overflow-y-auto
 ---
 
-# Macrolides: Chemical Architecture & Table 6 Decoder
+# Macrolides
 <div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">Macrocyclic lactones, R.B. Woodward, and Table 6 etymology (Beisel et al., Table 6)</div>
 
 <div class="grid grid-cols-2 gap-3 mb-3 text-base">
@@ -738,7 +738,7 @@ class: overflow-y-auto
       <tr>
         <th class="py-2.5 px-3">Agent Name</th>
         <th class="py-2.5 px-3">Category / Stem</th>
-        <th class="py-2.5 px-3">Etymological & Structural Origin (Beisel et al., Table 6)</th>
+        <th class="py-2.5 px-3">Etymological & Structural Origin </th>
       </tr>
     </thead>
     <tbody class="text-[#2d3339] dark:text-[#cbd5e1]">
@@ -766,7 +766,7 @@ layout: default
 class: overflow-y-auto
 ---
 
-# Quinolones: Chloroquine By-product & Table 7 Decoder
+# Quinolones
 <div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">From Nalidixic acid to C6-fluorine and C7-piperazine evolution (Beisel et al., Table 7)</div>
 
 <div class="grid grid-cols-2 gap-3 mb-3 text-base">
@@ -793,7 +793,7 @@ class: overflow-y-auto
       <tr>
         <th class="py-2.5 px-3">Agent Name</th>
         <th class="py-2.5 px-3">Category / Generation</th>
-        <th class="py-2.5 px-3">Etymological & Structural Origin (Beisel et al., Table 7)</th>
+        <th class="py-2.5 px-3">Etymological & Structural Origin </th>
       </tr>
     </thead>
     <tbody class="text-[#2d3339] dark:text-[#cbd5e1]">
@@ -826,13 +826,12 @@ class: overflow-y-auto
   </table>
 </div>
 
-
 ---
 layout: default
 class: overflow-y-auto
 ---
 
-# Tetracyclines & Glycylcyclines: Architecture & Table 8 Decoder
+# Tetracyclines & Glycylcyclines
 <div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">4-Ring architecture, soil actinomycetes, and glycylamido derivatives (Beisel et al., Table 8)</div>
 
 <div class="grid grid-cols-2 gap-3 mb-3 text-base">
@@ -860,7 +859,7 @@ class: overflow-y-auto
       <tr>
         <th class="py-2.5 px-3">Agent Name</th>
         <th class="py-2.5 px-3">Category / Stem</th>
-        <th class="py-2.5 px-3">Etymological & Structural Origin (Beisel et al., Table 8)</th>
+        <th class="py-2.5 px-3">Etymological & Structural Origin </th>
       </tr>
     </thead>
     <tbody class="text-[#2d3339] dark:text-[#cbd5e1]">
@@ -903,13 +902,12 @@ class: overflow-y-auto
   </table>
 </div>
 
-
 ---
 layout: default
 class: overflow-y-auto
 ---
 
-# Sulfonamides & Antifolate Agents: Table 9 Decoder
+# Sulfonamides & Antifolate Agents
 <div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">From Prontosil red azo dye to nucleic acid antimetabolites and folate synergy (Beisel et al., Table 9)</div>
 
 <div class="grid grid-cols-2 gap-3 mb-3 text-base">
@@ -936,7 +934,7 @@ class: overflow-y-auto
       <tr>
         <th class="py-2.5 px-3">Agent Name</th>
         <th class="py-2.5 px-3">Category / Stem</th>
-        <th class="py-2.5 px-3">Etymological & Structural Origin (Beisel et al., Table 9)</th>
+        <th class="py-2.5 px-3">Etymological & Structural Origin </th>
       </tr>
     </thead>
     <tbody class="text-[#2d3339] dark:text-[#cbd5e1]">
@@ -984,7 +982,7 @@ layout: default
 class: overflow-y-auto
 ---
 
-# Glycopeptides & Lipopeptides: Table 10 Decoder
+# Glycopeptides & Lipopeptides
 <div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">From Borneo jungles to Mt. Ararat and lipoglycopeptide evolution (Beisel et al., Table 10)</div>
 
 <div class="grid grid-cols-2 gap-3 mb-3 text-base">
@@ -1011,7 +1009,7 @@ class: overflow-y-auto
       <tr>
         <th class="py-2.5 px-3">Agent Name</th>
         <th class="py-2.5 px-3">Category / Class</th>
-        <th class="py-2.5 px-3">Etymological & Structural Origin (Beisel et al., Table 10)</th>
+        <th class="py-2.5 px-3">Etymological & Structural Origin </th>
       </tr>
     </thead>
     <tbody class="text-[#2d3339] dark:text-[#cbd5e1]">
@@ -1049,13 +1047,12 @@ class: overflow-y-auto
   </table>
 </div>
 
-
 ---
 layout: default
 class: overflow-y-auto
 ---
 
-# Oxazolidinones & Lincosamides: Tables 11 & 12 Decoder
+# Oxazolidinones & Lincosamides
 <div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">From DuPont toxicity to Upjohn breakthroughs and Lincoln, Nebraska soil (Beisel et al., Tables 11 & 12)</div>
 
 <div class="grid grid-cols-2 gap-3 mb-3 text-base">
@@ -1082,7 +1079,7 @@ class: overflow-y-auto
       <tr>
         <th class="py-2.5 px-3">Agent Name</th>
         <th class="py-2.5 px-3">Class / Group</th>
-        <th class="py-2.5 px-3">Etymological & Chemical Origin (Beisel et al., Tables 11 & 12)</th>
+        <th class="py-2.5 px-3">Etymological & Chemical Origin </th>
       </tr>
     </thead>
     <tbody class="text-[#2d3339] dark:text-[#cbd5e1]">
@@ -1110,13 +1107,12 @@ class: overflow-y-auto
   </table>
 </div>
 
-
 ---
 layout: default
 class: overflow-y-auto
 ---
 
-# Rifamycins & Polymyxins: Tables 13 & 14 Decoder
+# Rifamycins & Polymyxins
 <div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">From 1950s French mob films to slimy soil bacilli and cationic polypeptides (Beisel et al., Tables 13 & 14)</div>
 
 <div class="grid grid-cols-2 gap-3 mb-2 text-base">
@@ -1151,7 +1147,7 @@ class: overflow-y-auto
       <tr>
         <th class="py-2.5 px-3">Agent Name</th>
         <th class="py-2.5 px-3">Class / Group</th>
-        <th class="py-2.5 px-3">Etymological & Structural Origin (Beisel et al., Tables 13 & 14)</th>
+        <th class="py-2.5 px-3">Etymological & Structural Origin </th>
       </tr>
     </thead>
     <tbody class="text-[#2d3339] dark:text-[#cbd5e1]">
@@ -1195,7 +1191,7 @@ class: overflow-y-auto
 ---
 
 # Miscellaneous Antibiotics: Spanish Mountain Soil, Dental Miracles & Gut Targets
-<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">Fosfomycin, Metronidazole, and Fidaxomicin (Beisel et al., Section 8)</div>
+<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">Fosfomycin, Metronidazole, and Fidaxomicin </div>
 
 <div class="grid grid-cols-3 gap-3 mb-3 text-base">
   <div class="p-2.5 rounded-xl bg-[#e2e9f0] dark:bg-[#1e252c] m-border-slate">
@@ -1229,7 +1225,7 @@ class: overflow-y-auto
 ---
 
 # Miscellaneous Antibiotics: WWII Synthesis, Venezuelan Soil & Bacterial Antagonism
-<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">Nitrofurantoin, Chloramphenicol, and Mupirocin (Beisel et al., Section 8)</div>
+<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">Nitrofurantoin, Chloramphenicol, and Mupirocin</div>
 
 <div class="grid grid-cols-3 gap-3 mb-3 text-base">
   <div class="p-2.5 rounded-xl bg-[#f4e6e6] dark:bg-[#272020] m-border-rose">
@@ -1257,7 +1253,6 @@ class: overflow-y-auto
   </div>
 </div>
 
-
 ---
 layout: default
 ---
@@ -1280,7 +1275,7 @@ class: overflow-y-auto
 ---
 
 # Polyenes: Discovery, Chemical Nature &amp; Formulation Evolution
-<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">Macrocyclic lactones with conjugated double bonds ("poly-") (Beisel et al., Section 9)</div>
+<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">Macrocyclic lactones with conjugated double bonds ("poly-") </div>
 
 <div class="grid grid-cols-2 gap-3 mb-3 text-base">
   <div class="p-2.5 rounded-xl bg-[#f4e6e6] dark:bg-[#272020] m-border-rose">
@@ -1309,7 +1304,7 @@ class: overflow-y-auto
       <tr class="border-b border-[#c8b9a6] dark:border-[#4a3e30] font-bold text-[#372b1d] dark:text-[#e4d7c8]">
         <th class="py-1.5 px-2 w-1/5">Polyene Agent</th>
         <th class="py-1.5 px-2 w-1/4">Microbial Source / Geographic Origin</th>
-        <th class="py-1.5 px-2 w-1/3">Etymological &amp; Chemical Naming (Beisel et al.)</th>
+        <th class="py-1.5 px-2 w-1/3">Etymological &amp; Chemical Naming </th>
         <th class="py-1.5 px-2 w-1/4">Clinical &amp; Formulation Significance</th>
       </tr>
     </thead>
@@ -1336,15 +1331,13 @@ class: overflow-y-auto
   </table>
 </div>
 
-
-
 ---
 layout: default
 class: overflow-y-auto
 ---
 
 # Azoles: Chemical Evolution, Ring Architecture &amp; Etymology
-<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">From topical imidazoles to mold-active triazoles &amp; low-toxicity tetrazoles (Beisel et al., Section 9)</div>
+<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">From topical imidazoles to mold-active triazoles &amp; low-toxicity tetrazoles </div>
 
 <div class="grid grid-cols-2 gap-3 mb-3 text-base">
   <div class="p-2.5 rounded-xl bg-[#e3ece5] dark:bg-[#1e2621] m-border-sage">
@@ -1372,7 +1365,7 @@ class: overflow-y-auto
       <tr class="border-b border-[#c8b9a6] dark:border-[#4a3e30] font-bold text-[#372b1d] dark:text-[#e4d7c8]">
         <th class="py-1 px-2 w-1/6">Azole Agent</th>
         <th class="py-1 px-2 w-1/6">Ring Sub-Class</th>
-        <th class="py-1 px-2 w-5/12">Etymological &amp; Chemical Naming Rationale (Beisel et al.)</th>
+        <th class="py-1 px-2 w-5/12">Etymological &amp; Chemical Naming Rationale</th>
         <th class="py-1 px-2 w-1/4">Clinical / Chemical Significance</th>
       </tr>
     </thead>
@@ -1435,14 +1428,13 @@ class: overflow-y-auto
   </table>
 </div>
 
-
 ---
 layout: default
 class: overflow-y-auto
 ---
 
 # Glucan Synthase Inhibitors: Echinocandins &amp; Triterpenoids
-<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">Targeting 1,3-β-D-glucan synthesis in the fungal cell wall (Beisel et al., Section 9)</div>
+<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">Targeting 1,3-β-D-glucan synthesis in the fungal cell wall </div>
 
 <div class="grid grid-cols-2 gap-3 mb-3 text-base">
   <div class="p-2.5 rounded-xl bg-[#e3ece5] dark:bg-[#1e2621] m-border-sage">
@@ -1471,7 +1463,7 @@ class: overflow-y-auto
       <tr class="border-b border-[#c8b9a6] dark:border-[#4a3e30] font-bold text-[#372b1d] dark:text-[#e4d7c8]">
         <th class="py-1.5 px-2 w-1/5">Agent</th>
         <th class="py-1.5 px-2 w-1/4">Microbial Source / Derivative Origin</th>
-        <th class="py-1.5 px-2 w-1/3">Etymological &amp; Chemical Naming (Beisel et al.)</th>
+        <th class="py-1.5 px-2 w-1/3">Etymological &amp; Chemical Naming </th>
         <th class="py-1.5 px-2 w-1/4">Clinical &amp; Structural Significance</th>
       </tr>
     </thead>
@@ -1510,14 +1502,13 @@ class: overflow-y-auto
   </table>
 </div>
 
-
 ---
 layout: default
 class: overflow-y-auto
 ---
 
 # Other Antifungals: Repurposed Drugs, Allylamines &amp; Chemical Diversity
-<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">Pyrimidines, allylamines, oxaboroles, hydroxypyridones, and fatty acids (Beisel et al., Section 10)</div>
+<div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">Pyrimidines, allylamines, oxaboroles, hydroxypyridones, and fatty acids</div>
 
 <div class="grid grid-cols-2 gap-3 mb-3 text-base">
   <div class="p-2.5 rounded-xl bg-[#f4e6e6] dark:bg-[#272020] m-border-rose">
@@ -1543,7 +1534,7 @@ class: overflow-y-auto
       <tr class="border-b border-[#c8b9a6] dark:border-[#4a3e30] font-bold text-[#372b1d] dark:text-[#e4d7c8]">
         <th class="py-1 px-2 w-1/6">Antifungal Agent</th>
         <th class="py-1 px-2 w-1/6">Chemical Sub-Class</th>
-        <th class="py-1 px-2 w-5/12">Etymological &amp; Chemical Naming Rationale (Beisel et al.)</th>
+        <th class="py-1 px-2 w-5/12">Etymological &amp; Chemical Naming Rationale </th>
         <th class="py-1 px-2 w-1/4">Clinical / Biological Significance</th>
       </tr>
     </thead>
@@ -1606,7 +1597,6 @@ class: overflow-y-auto
   </table>
 </div>
 
-
 ---
 layout: default
 class: text-center
@@ -1635,20 +1625,3 @@ class: text-center
   </div>
 </div>
 
-
----
-layout: center
-class: text-center
----
-
-# Thank You!
-### Questions & Discussion
-
-<div class="mt-4 text-gray-500 dark:text-gray-400 text-base">
-  Let's open the floor for thoughts, comments, and antibiotic stewardship insights.
-</div>
-
-<div class="mt-8 text-base font-mono text-gray-400">
-  Reference: Beisel C, et al. What’s in a Name? Etymology and History of Antibacterials and Antifungals.<br>
-  *Open Forum Infectious Diseases*, 2026; ofag440.
-</div>
