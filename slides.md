@@ -299,7 +299,7 @@ class: overflow-y-auto
     <div class="font-bold text-[#372b1d] dark:text-[#e4d7c8] text-base mb-1">🛡️ Discovery & Structural Evolution</div>
     <ul class="space-y-1 text-sm text-[#2d3339] dark:text-[#cbd5e1] pl-4 list-disc">
       <li><b>Natural Prototype:</b> Clavulanate isolated from <i>S. clavuligerus</i> culture filtrate.</li>
-      <li><b>Structural Shift:</b> Evolved from β-lactam sulfones to cyclic boronic acids & non-β-lactam DBOs.</li>
+      <li><b>Structural Shift:</b> Evolved from β-lactam sulfones to cyclic boronic acids & non-β-lactam DBOs(Diazabicyclooctane（雙氮雜雙環辛烷）。).</li>
     </ul>
   </div>
 
@@ -373,7 +373,7 @@ class: overflow-y-auto
   <div class="p-2.5 rounded-xl bg-[#f2ebdf] dark:bg-[#26231e] m-border-sand">
     <div class="font-bold text-[#372b1d] dark:text-[#e4d7c8] text-base mb-1">🌊 The Sardinian Sewage Discovery (1948)</div>
     <p class="text-sm text-[#2d3339] dark:text-[#cbd5e1] leading-relaxed">
-      Italian microbiologist <b>Giuseppe Brotzu</b> investigated sewage outfalls in Sardinia after noticing locals swimming there rarely developed typhoid fever. Isolated <i>Acremonium chrysogenum</i> (formerly <i>Cephalosporium acremonium</i>), producing <b>Cephalosporin C</b>.
+      Italian microbiologist <b>Giuseppe Brotzu</b> investigated sewage outfalls(污水出口) in Sardinia after noticing locals swimming there rarely developed typhoid fever. Isolated <i>Acremonium chrysogenum</i> (formerly <i>Cephalosporium acremonium</i>), producing <b>Cephalosporin C</b>.
     </p>
   </div>
 
@@ -400,7 +400,7 @@ class: overflow-y-auto
     <ul class="space-y-1 text-sm text-[#2d3339] dark:text-[#cbd5e1] pl-4 list-disc">
       <li><b>Cefepime (4th Gen):</b> Zwitterion; C-7 methoxyimino + C-3 pyrrolidine.</li>
       <li><b>Ceftaroline (5th Gen):</b> Thiazole side chain targeting MRSA PBP2a.</li>
-      <li><b>Cefiderocol:</b> Siderophore cephalosporin exploiting active $Fe^{3+}$ transport like a Trojan Horse.</li>
+      <li><b>Cefiderocol:</b> Siderophore cephalosporin exploiting active Fe<sup>3+</sup> transport like a Trojan Horse.</li>
     </ul>
   </div>
 </div>
@@ -548,7 +548,7 @@ class: overflow-y-auto
     <div class="font-bold text-[#1f3143] dark:text-[#d3e0ec] text-sm mb-1">🚀 Bedside Evolution: DHP-1 Stability & OPAT</div>
     <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
       <li><b>1990s Meropenem:</b> Engineered C1-methyl modification to resist DHP-1 metabolism independently without needing cilastatin.</li>
-      <li><b>2001 Ertapenem:</b> Extended serum albumin binding, unlocking outpatient <i>once-daily dosing</i> (OPAT).</li>
+      <li><b>2001 Ertapenem:</b> Extended serum albumin binding, unlocking  <i>once-daily dosing</i> </li>
     </ul>
   </div>
 </div>
@@ -1624,4 +1624,3 @@ class: text-center
     Reference: Beisel C, et al. <i>What’s in a Name? Etymology and History of Antibacterials and Antifungals.</i> Open Forum Infect Dis, 2026.
   </div>
 </div>
-
