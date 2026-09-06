@@ -848,7 +848,7 @@ class: overflow-y-auto
     <div class="font-bold text-[#283a2c] dark:text-[#cde0d2] text-sm mb-1">🧬 PK Refinement & Glycylcycline Innovation</div>
     <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
       <li><b>2nd Gen (Doxy / Mino):</b> Enhanced oral bioavailability & extended half-lives via chemical modifications.</li>
-      <li><b>Glycylcyclines (Tigecycline, etc.):</b> Added C-9 <b>glycylamido moiety</b> to defeat efflux pumps & ribosomal protection in MDR bugs.</li>
+      <li><b>Glycylcyclines (Tigecycline, etc.):</b> Added C-9 <b>glycylamido moiety</b> to defeat efflux pumps & ribosomal protection in MDR pathogen.</li>
     </ul>
   </div>
 </div>
@@ -982,7 +982,7 @@ layout: default
 class: overflow-y-auto
 ---
 
-# Glycopeptides & Lipopeptides
+# Glycopeptides & Lipoglycopeptides
 <div class="text-[#6e757c] dark:text-[#9ea6ae] text-base -mt-1 mb-3 font-normal tracking-wide">From Borneo jungles to Mt. Ararat and lipoglycopeptide evolution (Beisel et al., Table 10)</div>
 
 <div class="grid grid-cols-2 gap-3 mb-3 text-base">
@@ -998,7 +998,7 @@ class: overflow-y-auto
     <div class="font-bold text-[#3b1d1d] dark:text-[#ebd6d6] text-sm mb-1">🏔️ Daptomycin & Membrane Depolarization</div>
     <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
       <li><b>Mount Ararat, Turkey (1980s):</b> Isolated from <i>Streptomyces roseosporus</i> soil actinomycete.</li>
-      <li><b>Etymology & MOA:</b> <code class="px-1 py-0.2 rounded bg-[#e5c9c9] text-[#3b1d1d] font-mono">dap-</code> = <b>decanoyl</b> (fatty acid tail) + <b>amino peptide</b> core; membrane depolarization MOA distinct from cell wall inhibition.</li>
+      <li><b>Etymology & MOA:</b> <code class="px-1 py-0.2 rounded bg-[#e5c9c9] text-[#3b1d1d] font-mono">dap-</code> = <b>decanoyl</b> (fatty acid tail) + <b>amino peptide</b> core; membrane depolarization mechanism distinct from cell wall inhibition.</li>
     </ul>
   </div>
 </div>
