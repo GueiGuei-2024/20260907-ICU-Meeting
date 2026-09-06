@@ -11,7 +11,7 @@ mdc: true
 layout: default
 ---
 
-<div class="h-full flex flex-col justify-between items-center py-4 px-6">
+<div class="h-full flex flex-col justify-between items-center py-4 px-6 relative">
   <!-- Journal Paper Header Image (Balanced Proportion) -->
   <div class="w-full flex justify-center items-center my-auto">
     <img src="/Title.png" class="rounded-xl border border-gray-200 dark:border-gray-700 shadow-md max-h-[310px] max-w-[90%] object-contain" alt="Open Forum Infectious Diseases Review Article Header" />
@@ -22,6 +22,11 @@ layout: default
     <div>日期：20260907</div>
     <div>報告者：R3 施朝貴</div>
   </div>
+
+  <!-- Bottom-Right PDF Download Button -->
+  <a href="/antimicrobials_etymology.pdf" download title="下載 PDF 簡報檔案" class="absolute bottom-4 right-6 flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#e2e9f0] dark:bg-[#1e252c] border border-[#b5c7d8] dark:border-[#2e3b47] shadow-md text-xs font-bold text-[#1f3143] dark:text-[#d3e0ec] hover:bg-[#d0deeb] dark:hover:bg-[#28323c] transition-all no-underline">
+    <span>📥</span> <span>PDF 下載</span>
+  </a>
 </div>
 
 
@@ -1120,7 +1125,7 @@ class: overflow-y-auto
     <div class="font-bold text-[#372b1d] dark:text-[#e4d7c8] text-sm mb-1">🎬 Rifamycins: Lepetit Labs & "Rififi" Heist Film</div>
     <ul class="space-y-0.5 text-xs text-[#2d3339] dark:text-[#cbd5e1] pl-3.5 list-disc">
       <li><b>Milan Discovery (1957):</b> Isolated by Piero Sensi's team from <i>Streptomyces mediterranei</i> (<i>A. rifamycinica</i>). Rifamycin B isolated in pure form.</li>
-      <li><b>French Mob Movie Naming:</b> Nicknamed after 1955 French crime film <i><b>Rififi</b></i> (slang for fight/scuffle) → <b>Rifamycin</b>!</li>
+      <li><b>French Mob Movie Naming:</b> Nicknamed after 1955 French crime film <span class="group relative inline-block cursor-pointer border-b border-dashed border-[#372b1d] dark:border-[#e4d7c8] font-bold text-[#372b1d] dark:text-[#e4d7c8]">Rififi<span class="invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-all duration-300 pointer-events-auto absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-[280px] p-2 rounded-xl bg-white dark:bg-[#1e252c] border border-gray-300 dark:border-gray-700 shadow-2xl z-50 flex flex-col text-left"><span class="w-full text-xs font-bold text-gray-800 dark:text-gray-200 mb-1 flex items-center justify-between"><span>🎬 Du rififi chez les hommes (1955)</span><span class="text-[10px] font-mono text-gray-400">Trailer</span></span><iframe class="w-full h-[155px] rounded-lg border-0 shadow-inner" src="https://www.youtube.com/embed/PVRiC5ysSLk" title="Du rififi chez les hommes (1955) Trailer" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><span class="w-full text-[10px] text-gray-500 dark:text-gray-400 mt-1 leading-tight">French crime film that inspired the drug name <b>Rifamycin</b>.</span></span></span> (slang for fight/scuffle) → <b>Rifamycin</b>!</li>
     </ul>
   </div>
 
