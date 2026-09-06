@@ -24,7 +24,7 @@ layout: default
   </div>
 
   <!-- Bottom-Right PDF Download Button -->
-  <a href="/antimicrobials_etymology.pdf" download title="下載 PDF 簡報檔案" class="absolute bottom-4 right-6 flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#e2e9f0] dark:bg-[#1e252c] border border-[#b5c7d8] dark:border-[#2e3b47] shadow-md text-xs font-bold text-[#1f3143] dark:text-[#d3e0ec] hover:bg-[#d0deeb] dark:hover:bg-[#28323c] transition-all no-underline">
+  <a href="./antimicrobials_etymology.pdf" download title="下載 PDF 簡報檔案" class="absolute bottom-4 right-6 flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#e2e9f0] dark:bg-[#1e252c] border border-[#b5c7d8] dark:border-[#2e3b47] shadow-md text-xs font-bold text-[#1f3143] dark:text-[#d3e0ec] hover:bg-[#d0deeb] dark:hover:bg-[#28323c] transition-all no-underline">
     <span>📥</span> <span>PDF 下載</span>
   </a>
 </div>
