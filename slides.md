@@ -1,6 +1,5 @@
 ---
 theme: seriph
-background: https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1920&q=80
 class: text-center
 highlighter: shiki
 lineNumbers: false
@@ -9,15 +8,20 @@ drawings:
 transition: slide-left
 title: What's in a Name? Etymology and History of Antimicrobials
 mdc: true
-layout: cover
+layout: default
 ---
 
-# What’s in a Name?
-### Etymology, History, and Forgotten Stories of Antibacterials & Antifungals
+<div class="h-full flex flex-col justify-between items-center py-4 px-6">
+  <!-- Journal Paper Header Image (Balanced Proportion) -->
+  <div class="w-full flex justify-center items-center my-auto">
+    <img src="/Title.png" class="rounded-xl border border-gray-200 dark:border-gray-700 shadow-md max-h-[310px] max-w-[90%] object-contain" alt="Open Forum Infectious Diseases Review Article Header" />
+  </div>
 
-<div class="pt-4 text-gray-500 dark:text-gray-400 text-base">
-  ICU Clinical Conference & Antimicrobial Stewardship Review<br>
-  Based on Beisel C, Donnelley M, Thompson GR III, et al. *Open Forum Infect Dis* (OFID)
+  <!-- Bottom Metadata Card -->
+  <div class="w-full max-w-[480px] p-3 rounded-xl bg-[#e2e9f0] dark:bg-[#1e252c] m-border-slate flex flex-col items-center justify-center space-y-1 shadow-sm text-sm font-bold text-[#1f3143] dark:text-[#d3e0ec]">
+    <div>日期：20260907</div>
+    <div>報告者：R3 施朝貴</div>
+  </div>
 </div>
 
 
